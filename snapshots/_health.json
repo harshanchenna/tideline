@@ -2,7 +2,7 @@
  "mcp": {
   "bootstrap": true,
   "date": "2026-10-08",
-  "entities": 40699,
+  "entities": 40902,
   "error": null,
   "events": 0,
   "last_ok": "2026-10-08",
@@ -11,7 +11,7 @@
  "models": {
   "bootstrap": true,
   "date": "2026-10-08",
-  "entities": 467,
+  "entities": 468,
   "error": null,
   "events": 0,
   "last_ok": "2026-10-08",

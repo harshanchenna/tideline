@@ -9,18 +9,18 @@
   "mcp": {
    "bootstrap": true,
    "date": "2026-10-08",
-   "entities": 40695,
+   "entities": 40699,
    "error": null,
    "events": 0,
    "last_ok": "2026-10-08",
    "ok": true
   },
   "models": {
-   "bootstrap": false,
+   "bootstrap": true,
    "date": "2026-10-08",
    "entities": 467,
    "error": null,
-   "events": 42,
+   "events": 0,
    "last_ok": "2026-10-08",
    "ok": true
   },
@@ -53,22 +53,6 @@
   }
  },
  "signals": [
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "DeepSeek: DeepSeek V4.1 Flash",
-     "note": "1048K ctx · $0.3/$1.2 per M tokens",
-     "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "deepseek",
-   "score": 14.0,
-   "title": "DeepSeek: DeepSeek V4.1 Flash: input price raised 500% ($0.05 → $0.3 per M tokens)"
-  },
   {
    "date": "2026-10-08",
    "detail": "Actions, Git Operations, Issues, Pull Requests, Webhooks",
@@ -129,38 +113,6 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Qwen: Qwen3.5-27B",
-     "note": "262K ctx · $0.26/$2.6 per M tokens",
-     "url": "https://openrouter.ai/qwen/qwen3.5-27b"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "qwen",
-   "score": 11.67,
-   "title": "Qwen: Qwen3.5-27B: output price raised 67% ($1.56 → $2.6 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Z.ai: GLM 5.2",
-     "note": "1048K ctx · $0.0883/$12 per M tokens",
-     "url": "https://openrouter.ai/z-ai/glm-5.2"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "z-ai",
-   "score": 11.67,
-   "title": "Z.ai: GLM 5.2: output price raised 67% ($7.2 → $12 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
    "detail": "76.2M downloads last week",
    "items": [
     {
@@ -177,7 +129,7 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "73.9M downloads last week",
+   "detail": "74.2M downloads last week",
    "items": [
     {
      "label": "openai 3.26.0",
@@ -188,7 +140,7 @@
    "kind": "release",
    "lane": "packages",
    "org": "openai",
-   "score": 11.27,
+   "score": 11.28,
    "title": "openai 3.26.0 released 2026-10-06 (pypi)"
   },
   {
@@ -209,22 +161,6 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Meta: Llama 3.3 70B Instruct",
-     "note": "131K ctx · $0.1/$0.32 per M tokens",
-     "url": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "meta-llama",
-   "score": 10.45,
-   "title": "Meta: Llama 3.3 70B Instruct: input price cut 55% ($0.22 → $0.1 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
    "detail": "50.9M downloads last week",
    "items": [
     {
@@ -241,81 +177,17 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Z.ai: GLM 5.3",
-     "note": "1048K ctx · $0.049/$3.39 per M tokens",
-     "url": "https://openrouter.ai/z-ai/glm-5.3"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "z-ai",
-   "score": 10.16,
-   "title": "Z.ai: GLM 5.3: output price cut 52% ($7 → $3.39 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "3398 hosted, 1863 local packages, 434 both; 2794 from domain-verified publishers.",
+   "detail": "3402 hosted, 1867 local packages, 434 both; 2798 from domain-verified publishers.",
    "items": [],
    "kind": "mcp_volume",
    "lane": "mcp",
    "org": null,
    "score": 10,
-   "title": "5735 new MCP servers in the last 7 days"
+   "title": "5743 new MCP servers in the last 7 days"
   },
   {
    "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "DeepSeek: DeepSeek V4 Pro 0813",
-     "note": "1048K ctx · $0.66/$1.98 per M tokens",
-     "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "deepseek",
-   "score": 10.0,
-   "title": "DeepSeek: DeepSeek V4 Pro 0813: input price cut 50% ($1.32 → $0.66 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "DeepSeek: DeepSeek V4 Pro 0813",
-     "note": "1048K ctx · $0.66/$1.98 per M tokens",
-     "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "deepseek",
-   "score": 10.0,
-   "title": "DeepSeek: DeepSeek V4 Pro 0813: output price cut 50% ($3.96 → $1.98 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Qwen: Qwen3 Next 80B A3B Instruct",
-     "note": "262K ctx · $0.15/$1.5 per M tokens",
-     "url": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "qwen",
-   "score": 10.0,
-   "title": "Qwen: Qwen3 Next 80B A3B Instruct: input price raised 50% ($0.1 → $0.15 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "40.5M downloads last week",
+   "detail": "40.6M downloads last week",
    "items": [
     {
      "label": "anthropic 1.12.0",
@@ -328,22 +200,6 @@
    "org": "anthropic",
    "score": 9.98,
    "title": "anthropic 1.12.0 released 2026-10-07 (pypi)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Z.ai: GLM 5.2",
-     "note": "1048K ctx · $0.0883/$12 per M tokens",
-     "url": "https://openrouter.ai/z-ai/glm-5.2"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "z-ai",
-   "score": 9.84,
-   "title": "Z.ai: GLM 5.2: input price cut 48% ($0.171 → $0.0883 per M tokens)"
   },
   {
    "date": "2026-10-08",
@@ -363,7 +219,7 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "34.2M downloads last week",
+   "detail": "34.1M downloads last week",
    "items": [
     {
      "label": "google-genai 2.29.0",
@@ -374,7 +230,7 @@
    "kind": "release",
    "lane": "packages",
    "org": "google-genai",
-   "score": 9.65,
+   "score": 9.64,
    "title": "google-genai 2.29.0 released 2026-10-07 (pypi)"
   },
   {
@@ -453,7 +309,7 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "23.0M downloads last week",
+   "detail": "22.8M downloads last week",
    "items": [
     {
      "label": "litellm 1.104.1",
@@ -464,24 +320,8 @@
    "kind": "release",
    "lane": "packages",
    "org": "litellm",
-   "score": 8.92,
+   "score": 8.91,
    "title": "litellm 1.104.1 released 2026-10-07 (pypi)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Qwen: Qwen3 Next 80B A3B Instruct",
-     "note": "262K ctx · $0.15/$1.5 per M tokens",
-     "url": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "qwen",
-   "score": 8.64,
-   "title": "Qwen: Qwen3 Next 80B A3B Instruct: output price raised 36% ($1.1 → $1.5 per M tokens)"
   },
   {
    "date": "2026-10-08",
@@ -492,22 +332,6 @@
    "org": "harvey",
    "score": 8.63,
    "title": "Harvey opened 70 roles in 14 days (31% of its open book), mostly Sales and Engineering"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Meta: Llama 3.3 70B Instruct",
-     "note": "131K ctx · $0.1/$0.32 per M tokens",
-     "url": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "meta-llama",
-   "score": 8.6,
-   "title": "Meta: Llama 3.3 70B Instruct: output price cut 36% ($0.5 → $0.32 per M tokens)"
   },
   {
    "date": "2026-10-08",
@@ -543,7 +367,7 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "16.1M downloads last week",
+   "detail": "16.0M downloads last week",
    "items": [
     {
      "label": "datasets 5.1.0",
@@ -554,24 +378,18 @@
    "kind": "release",
    "lane": "packages",
    "org": "datasets",
-   "score": 8.34,
+   "score": 8.32,
    "title": "datasets 5.1.0 released 2026-10-05 (pypi)"
   },
   {
    "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Qwen: Qwen3.5-27B",
-     "note": "262K ctx · $0.26/$2.6 per M tokens",
-     "url": "https://openrouter.ai/qwen/qwen3.5-27b"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "qwen",
-   "score": 8.33,
-   "title": "Qwen: Qwen3.5-27B: input price raised 33% ($0.195 → $0.26 per M tokens)"
+   "detail": "Example roles: Enterprise Account Executive; Enterprise Account Executive (AI Native & Emerging Tech); Enterprise Account Executive - East",
+   "items": [],
+   "kind": "theme_push",
+   "lane": "teams",
+   "org": "elastic",
+   "score": 8.24,
+   "title": "Elastic is leaning into enterprise GTM: 29% of new roles vs 13% before"
   },
   {
    "date": "2026-10-08",
@@ -624,23 +442,7 @@
    "lane": "models",
    "org": "anthropic",
    "score": 8,
-   "title": "Anthropic listed 2 new models today"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Z.ai: GLM 5.3",
-     "note": "1048K ctx · $0.049/$3.39 per M tokens",
-     "url": "https://openrouter.ai/z-ai/glm-5.3"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "z-ai",
-   "score": 8.0,
-   "title": "Z.ai: GLM 5.3: input price cut 30% ($0.07 → $0.049 per M tokens)"
+   "title": "Anthropic listed 2 new models in the last 7 days"
   },
   {
    "date": "2026-10-08",
@@ -660,23 +462,7 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "MoonshotAI: Kimi K3",
-     "note": "1048K ctx · $0.8/$15 per M tokens",
-     "url": "https://openrouter.ai/moonshotai/kimi-k3"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "moonshotai",
-   "score": 7.9,
-   "title": "MoonshotAI: Kimi K3: input price raised 29% ($0.62 → $0.8 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "11.7M downloads last week",
+   "detail": "11.9M downloads last week",
    "items": [
     {
      "label": "langgraph 1.2.14",
@@ -687,12 +473,12 @@
    "kind": "release",
    "lane": "packages",
    "org": "langgraph",
-   "score": 7.84,
+   "score": 7.87,
    "title": "langgraph 1.2.14 released 2026-10-06 (pypi)"
   },
   {
    "date": "2026-10-08",
-   "detail": "7.5M downloads last week",
+   "detail": "7.6M downloads last week",
    "items": [
     {
      "label": "claude-agent-sdk 0.2.164",
@@ -703,7 +489,7 @@
    "kind": "release",
    "lane": "packages",
    "org": "claude-agent-sdk",
-   "score": 7.24,
+   "score": 7.25,
    "title": "claude-agent-sdk 0.2.164 released 2026-10-06 (pypi)"
   },
   {
@@ -731,54 +517,6 @@
    "org": "elevenlabs",
    "score": 7.09,
    "title": "ElevenLabs opened 50 roles in 14 days (35% of its open book), mostly Sales and Engineering"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "6.3M downloads last week",
-   "items": [
-    {
-     "label": "langfuse 4.17.0",
-     "note": "",
-     "url": "https://pypi.org/project/langfuse/"
-    }
-   ],
-   "kind": "release",
-   "lane": "packages",
-   "org": "langfuse",
-   "score": 7.01,
-   "title": "langfuse 4.17.0 released 2026-10-05 (pypi)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "NVIDIA: Nemotron 3 Nano 30B A3B",
-     "note": "262K ctx · $0.06/$0.24 per M tokens",
-     "url": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "nvidia",
-   "score": 7.0,
-   "title": "NVIDIA: Nemotron 3 Nano 30B A3B: input price raised 20% ($0.05 → $0.06 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "NVIDIA: Nemotron 3 Nano 30B A3B",
-     "note": "262K ctx · $0.06/$0.24 per M tokens",
-     "url": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "nvidia",
-   "score": 7.0,
-   "title": "NVIDIA: Nemotron 3 Nano 30B A3B: output price raised 20% ($0.2 → $0.24 per M tokens)"
   },
   {
    "date": "2026-10-08",
@@ -2523,6 +2261,11 @@
      "label": "app.lexpad: Lexpad",
      "note": "1 server",
      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.lexpad/lexpad"
+    },
+    {
+     "label": "app.listspace: Listspace",
+     "note": "1 server",
+     "url": "https://github.com/listspace/agent"
     },
     {
      "label": "app.lumaion: Lumaion Continuity",
@@ -6360,6 +6103,11 @@
      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.longtailo/site"
     },
     {
+     "label": "com.loopxxi: loop-mcp",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.loopxxi/loop-mcp"
+    },
+    {
      "label": "com.lopebase: LopeBase",
      "note": "1 server",
      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.lopebase/lopebase"
@@ -9815,6 +9563,11 @@
      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.yardel/yardel"
     },
     {
+     "label": "dev.ytapi: YTAPI",
+     "note": "1 server",
+     "url": "https://github.com/ytapi/youtube-skills"
+    },
+    {
      "label": "dev.zhiyong.easyshiftplan: Shiftly Staff Scheduling Demo",
      "note": "1 server",
      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.zhiyong.easyshiftplan/shiftly-scheduling"
@@ -11890,6 +11643,11 @@
      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=team.gonogo/gonogo"
     },
     {
+     "label": "tech.agentbazaar: marketplace",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=tech.agentbazaar/marketplace"
+    },
+    {
      "label": "tech.blockwerk: BlockWerk",
      "note": "1 server",
      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=tech.blockwerk/mcp"
@@ -13484,23 +13242,7 @@
    "lane": "mcp",
    "org": null,
    "score": 7.0,
-   "title": "2539 domain-verified publishers shipped MCP servers in the last 7 days"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "NVIDIA: Nemotron 3.5 Lightning",
-     "note": "262K ctx · $0.049/$0.14 per M tokens",
-     "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "nvidia",
-   "score": 6.83,
-   "title": "NVIDIA: Nemotron 3.5 Lightning: input price cut 18% ($0.06 → $0.049 per M tokens)"
+   "title": "2543 domain-verified publishers shipped MCP servers in the last 7 days"
   },
   {
    "date": "2026-10-08",
@@ -13568,38 +13310,6 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Google: Gemma 4 26B A4B ",
-     "note": "262K ctx · $0.0765/$0.255 per M tokens",
-     "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "google",
-   "score": 6.5,
-   "title": "Google: Gemma 4 26B A4B : input price cut 15% ($0.09 → $0.0765 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Google: Gemma 4 26B A4B ",
-     "note": "262K ctx · $0.0765/$0.255 per M tokens",
-     "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "google",
-   "score": 6.5,
-   "title": "Google: Gemma 4 26B A4B : output price cut 15% ($0.3 → $0.255 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
    "detail": "Grok Bot",
    "items": [
     {
@@ -13627,50 +13337,8 @@
    "kind": "release",
    "lane": "packages",
    "org": "mistralai",
-   "score": 6.27,
-   "title": "mistralai 3.1.0 released 2026-10-06 (pypi)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "NVIDIA: Nemotron 3.5 Lightning",
-     "note": "262K ctx · $0.049/$0.14 per M tokens",
-     "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "nvidia",
    "score": 6.25,
-   "title": "NVIDIA: Nemotron 3.5 Lightning: output price cut 12% ($0.16 → $0.14 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "NVIDIA: Nemotron 3 Super",
-     "note": "262K ctx · $0.085/$0.4 per M tokens",
-     "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "nvidia",
-   "score": 6.11,
-   "title": "NVIDIA: Nemotron 3 Super: output price cut 11% ($0.45 → $0.4 per M tokens)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [],
-   "kind": "surge",
-   "lane": "teams",
-   "org": "gitlab",
-   "score": 6.02,
-   "title": "GitLab opened 55 roles in 14 days (27% of its open book), mostly Sales and Engineering"
+   "title": "mistralai 3.1.0 released 2026-10-06 (pypi)"
   },
   {
    "date": "2026-10-08",
@@ -13687,6 +13355,86 @@
    "org": "openai",
    "score": 6.02,
    "title": "OpenAI: Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity (minor impact, 61 min)"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "Google: Nano Banana 2.1 (65K ctx · $1.5/$7.5 per M tokens)",
+   "items": [
+    {
+     "label": "Google: Nano Banana 2.1",
+     "note": "65K ctx · $1.5/$7.5 per M tokens",
+     "url": "https://openrouter.ai/google/gemini-nano-banana-2.1"
+    }
+   ],
+   "kind": "new_models",
+   "lane": "models",
+   "org": "google",
+   "score": 6,
+   "title": "Google listed 1 new model in the last 7 days"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "Mistral: Mistral Large 4 (524K ctx · $0.68/$2.09 per M tokens)",
+   "items": [
+    {
+     "label": "Mistral: Mistral Large 4",
+     "note": "524K ctx · $0.68/$2.09 per M tokens",
+     "url": "https://openrouter.ai/mistralai/mistral-large-4-0"
+    }
+   ],
+   "kind": "new_models",
+   "lane": "models",
+   "org": "mistralai",
+   "score": 6,
+   "title": "Mistral listed 1 new model in the last 7 days"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "inclusionAI: Ling 3.1 Flash (262K ctx · free/free per M tokens)",
+   "items": [
+    {
+     "label": "inclusionAI: Ling 3.1 Flash",
+     "note": "262K ctx · free/free per M tokens",
+     "url": "https://openrouter.ai/inclusionai/ling-3.1-flash"
+    }
+   ],
+   "kind": "new_models",
+   "lane": "models",
+   "org": "inclusionai",
+   "score": 6,
+   "title": "inclusionai listed 1 new model in the last 7 days"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "Apodex: Apodex 1.1 Mini (free) (262K ctx · free/free per M tokens)",
+   "items": [
+    {
+     "label": "Apodex: Apodex 1.1 Mini (free)",
+     "note": "262K ctx · free/free per M tokens",
+     "url": "https://openrouter.ai/apodex/apodex-1.1-mini:free"
+    }
+   ],
+   "kind": "new_models",
+   "lane": "models",
+   "org": "apodex",
+   "score": 6,
+   "title": "apodex listed 1 new model in the last 7 days"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "Pareto 26.10 Preview (1048K ctx · $0.8/$3.2 per M tokens)",
+   "items": [
+    {
+     "label": "Pareto 26.10 Preview",
+     "note": "1048K ctx · $0.8/$3.2 per M tokens",
+     "url": "https://openrouter.ai/unbiased/pareto-26.10-preview"
+    }
+   ],
+   "kind": "new_models",
+   "lane": "models",
+   "org": "unbiased",
+   "score": 6,
+   "title": "unbiased listed 1 new model in the last 7 days"
   },
   {
    "date": "2026-10-08",
@@ -13723,18 +13471,12 @@
   {
    "date": "2026-10-08",
    "detail": "",
-   "items": [
-    {
-     "label": "DeepSeek: DeepSeek V3.2",
-     "note": "163K ctx · $0.259/$0.42 per M tokens",
-     "url": "https://openrouter.ai/deepseek/deepseek-v3.2"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "deepseek",
-   "score": 5.75,
-   "title": "DeepSeek: DeepSeek V3.2: input price cut 8% ($0.28 → $0.259 per M tokens)"
+   "items": [],
+   "kind": "surge",
+   "lane": "teams",
+   "org": "gitlab",
+   "score": 5.8,
+   "title": "GitLab opened 54 roles in 14 days (27% of its open book), mostly Sales and Engineering"
   },
   {
    "date": "2026-10-08",
@@ -13751,22 +13493,6 @@
    "org": "lancedb",
    "score": 5.64,
    "title": "lancedb 0.40.0 released 2026-10-07 (pypi)"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "NVIDIA: Nemotron 3 Super",
-     "note": "262K ctx · $0.085/$0.4 per M tokens",
-     "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b"
-    }
-   ],
-   "kind": "price_change",
-   "lane": "models",
-   "org": "nvidia",
-   "score": 5.63,
-   "title": "NVIDIA: Nemotron 3 Super: input price raised 6% ($0.08 → $0.085 per M tokens)"
   },
   {
    "date": "2026-10-08",
@@ -13838,7 +13564,7 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "969K downloads last week",
+   "detail": "994K downloads last week",
    "items": [
     {
      "label": "inspect-ai 0.3.277",
@@ -13849,12 +13575,12 @@
    "kind": "release",
    "lane": "packages",
    "org": "inspect-ai",
-   "score": 5.14,
+   "score": 5.16,
    "title": "inspect-ai 0.3.277 released 2026-10-06 (pypi)"
   },
   {
    "date": "2026-10-08",
-   "detail": "599K downloads last week",
+   "detail": "611K downloads last week",
    "items": [
     {
      "label": "crewai 1.15.25",
@@ -13865,12 +13591,12 @@
    "kind": "release",
    "lane": "packages",
    "org": "crewai",
-   "score": 4.78,
+   "score": 4.8,
    "title": "crewai 1.15.25 released 2026-10-07 (pypi)"
   },
   {
    "date": "2026-10-08",
-   "detail": "532K downloads last week",
+   "detail": "524K downloads last week",
    "items": [
     {
      "label": "trl 1.14.2",
@@ -13881,12 +13607,12 @@
    "kind": "release",
    "lane": "packages",
    "org": "trl",
-   "score": 4.7,
+   "score": 4.69,
    "title": "trl 1.14.2 released 2026-10-06 (pypi)"
   },
   {
    "date": "2026-10-08",
-   "detail": "466K downloads last week",
+   "detail": "456K downloads last week",
    "items": [
     {
      "label": "vllm 0.31.0",
@@ -13897,7 +13623,7 @@
    "kind": "release",
    "lane": "packages",
    "org": "vllm",
-   "score": 4.61,
+   "score": 4.6,
    "title": "vllm 0.31.0 released 2026-10-05 (pypi)"
   },
   {
@@ -13918,7 +13644,7 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "383K downloads last week",
+   "detail": "388K downloads last week",
    "items": [
     {
      "label": "together 2.40.0",
@@ -13929,7 +13655,7 @@
    "kind": "release",
    "lane": "packages",
    "org": "together",
-   "score": 4.49,
+   "score": 4.5,
    "title": "together 2.40.0 released 2026-10-07 (pypi)"
   },
   {
@@ -13954,7 +13680,7 @@
   },
   {
    "date": "2026-10-08",
-   "detail": "174K downloads last week",
+   "detail": "178K downloads last week",
    "items": [
     {
      "label": "unsloth 2026.10.2",
@@ -13965,7 +13691,7 @@
    "kind": "release",
    "lane": "packages",
    "org": "unsloth",
-   "score": 4.04,
+   "score": 4.05,
    "title": "unsloth 2026.10.2 released 2026-10-07 (pypi)"
   },
   {
@@ -14027,6 +13753,38 @@
    "org": "writer",
    "score": 2.18,
    "title": "Writer opened 17 roles in 14 days (32% of its open book), mostly Customer and Sales"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "? downloads last week",
+   "items": [
+    {
+     "label": "langfuse 4.17.0",
+     "note": "",
+     "url": "https://pypi.org/project/langfuse/"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "langfuse",
+   "score": 2.0,
+   "title": "langfuse 4.17.0 released 2026-10-05 (pypi)"
+  },
+  {
+   "date": "2026-10-08",
+   "detail": "",
+   "items": [
+    {
+     "label": "Issue with spend limits",
+     "note": "",
+     "url": "https://stspg.io/frlrjsqqn605"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "anthropic",
+   "score": 2.0,
+   "title": "Anthropic: Issue with spend limits (none impact, 0 min)"
   },
   {
    "date": "2026-10-08",
@@ -14207,22 +13965,6 @@
    "org": "vapi",
    "score": 2.0,
    "title": "Vapi is hiring to lead new work: Head of Data"
-  },
-  {
-   "date": "2026-10-08",
-   "detail": "",
-   "items": [
-    {
-     "label": "Issue with spend limits",
-     "note": "",
-     "url": "https://stspg.io/frlrjsqqn605"
-    }
-   ],
-   "kind": "incident",
-   "lane": "reliability",
-   "org": "anthropic",
-   "score": 2.0,
-   "title": "Anthropic: Issue with spend limits (none impact, 0 min)"
   },
   {
    "date": "2026-10-08",

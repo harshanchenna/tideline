@@ -1,0 +1,791 @@
+{
+ "_comment": "AI companies with public Greenhouse/Lever/Ashby boards. Only aggregates are published.",
+ "companies": [
+  {
+   "name": "Abridge",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "abridge"
+  },
+  {
+   "name": "Airbyte",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "airbyte"
+  },
+  {
+   "name": "Airtable",
+   "sector": "AI apps",
+   "ats": "greenhouse",
+   "token": "airtable"
+  },
+  {
+   "name": "Ambience Healthcare",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "ambiencehealthcare"
+  },
+  {
+   "name": "Anthropic",
+   "sector": "Frontier labs",
+   "ats": "greenhouse",
+   "token": "anthropic"
+  },
+  {
+   "name": "Anyscale",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "anyscale"
+  },
+  {
+   "name": "Apollo Research",
+   "sector": "Frontier labs",
+   "ats": "lever",
+   "token": "apolloresearch"
+  },
+  {
+   "name": "Arize AI",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "arizeai"
+  },
+  {
+   "name": "AssemblyAI",
+   "sector": "Frontier labs",
+   "ats": "greenhouse",
+   "token": "assemblyai"
+  },
+  {
+   "name": "Attio",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "attio"
+  },
+  {
+   "name": "Baseten",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "baseten"
+  },
+  {
+   "name": "Black Forest Labs",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "black-forest-labs"
+  },
+  {
+   "name": "Bland AI",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "bland"
+  },
+  {
+   "name": "Braintrust",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "braintrust"
+  },
+  {
+   "name": "Browserbase",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "browserbase"
+  },
+  {
+   "name": "Buildkite",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "buildkite"
+  },
+  {
+   "name": "Cartesia",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "cartesia"
+  },
+  {
+   "name": "Cerebras",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "cerebras"
+  },
+  {
+   "name": "Character",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "character"
+  },
+  {
+   "name": "CircleCI",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "circleci"
+  },
+  {
+   "name": "ClickHouse",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "clickhouse"
+  },
+  {
+   "name": "Cloudflare",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "cloudflare"
+  },
+  {
+   "name": "Cockroach Labs",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "cockroachlabs"
+  },
+  {
+   "name": "Cognition",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "cognition"
+  },
+  {
+   "name": "Cohere",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "cohere"
+  },
+  {
+   "name": "Confluent",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "confluent"
+  },
+  {
+   "name": "CoreWeave",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "coreweave"
+  },
+  {
+   "name": "Crusoe",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "crusoe"
+  },
+  {
+   "name": "Cursor",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "cursor"
+  },
+  {
+   "name": "d-Matrix",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "d-matrix"
+  },
+  {
+   "name": "Databricks",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "databricks"
+  },
+  {
+   "name": "Datadog",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "datadog"
+  },
+  {
+   "name": "Decagon",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "decagon"
+  },
+  {
+   "name": "Deepgram",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "deepgram"
+  },
+  {
+   "name": "Descript",
+   "sector": "AI apps",
+   "ats": "greenhouse",
+   "token": "descript"
+  },
+  {
+   "name": "Docker",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "docker"
+  },
+  {
+   "name": "Duolingo",
+   "sector": "AI apps",
+   "ats": "greenhouse",
+   "token": "duolingo"
+  },
+  {
+   "name": "Elastic",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "elastic"
+  },
+  {
+   "name": "ElevenLabs",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "elevenlabs"
+  },
+  {
+   "name": "Etched",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "etched"
+  },
+  {
+   "name": "Extend",
+   "sector": "AI apps",
+   "ats": "greenhouse",
+   "token": "extend"
+  },
+  {
+   "name": "Factory",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "factory"
+  },
+  {
+   "name": "Fastly",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "fastly"
+  },
+  {
+   "name": "Figma",
+   "sector": "AI apps",
+   "ats": "greenhouse",
+   "token": "figma"
+  },
+  {
+   "name": "Fireworks AI",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "fireworks"
+  },
+  {
+   "name": "Fivetran",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "fivetran"
+  },
+  {
+   "name": "Galileo",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "galileo"
+  },
+  {
+   "name": "Gamma",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "gamma"
+  },
+  {
+   "name": "GitLab",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "gitlab"
+  },
+  {
+   "name": "Goodfire",
+   "sector": "Frontier labs",
+   "ats": "greenhouse",
+   "token": "goodfire"
+  },
+  {
+   "name": "Grafana Labs",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "grafanalabs"
+  },
+  {
+   "name": "Granola",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "granola"
+  },
+  {
+   "name": "Gusto",
+   "sector": "AI apps",
+   "ats": "greenhouse",
+   "token": "gusto"
+  },
+  {
+   "name": "Handshake",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "handshake"
+  },
+  {
+   "name": "Harness",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "harnessinc"
+  },
+  {
+   "name": "Harvey",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "harvey"
+  },
+  {
+   "name": "Hex",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "hex"
+  },
+  {
+   "name": "HeyGen",
+   "sector": "AI apps",
+   "ats": "greenhouse",
+   "token": "heygen"
+  },
+  {
+   "name": "Honeycomb",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "honeycomb"
+  },
+  {
+   "name": "Hume AI",
+   "sector": "Frontier labs",
+   "ats": "greenhouse",
+   "token": "humeai"
+  },
+  {
+   "name": "Imbue",
+   "sector": "Frontier labs",
+   "ats": "greenhouse",
+   "token": "imbue"
+  },
+  {
+   "name": "Inflection",
+   "sector": "Frontier labs",
+   "ats": "greenhouse",
+   "token": "inflectionai"
+  },
+  {
+   "name": "Inngest",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "inngest"
+  },
+  {
+   "name": "Labelbox",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "labelbox"
+  },
+  {
+   "name": "Lambda",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "lambda"
+  },
+  {
+   "name": "LanceDB",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "lancedb"
+  },
+  {
+   "name": "LangChain",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "langchain"
+  },
+  {
+   "name": "LaunchDarkly",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "launchdarkly"
+  },
+  {
+   "name": "Lightmatter",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "lightmatter"
+  },
+  {
+   "name": "Linear",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "linear"
+  },
+  {
+   "name": "Liquid AI",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "liquid-ai"
+  },
+  {
+   "name": "LlamaIndex",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "llamaindex"
+  },
+  {
+   "name": "Lovable",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "lovable"
+  },
+  {
+   "name": "Luma AI",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "lumaai"
+  },
+  {
+   "name": "MatX",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "matx"
+  },
+  {
+   "name": "Mercor",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "mercor"
+  },
+  {
+   "name": "METR",
+   "sector": "Frontier labs",
+   "ats": "lever",
+   "token": "metr"
+  },
+  {
+   "name": "Midjourney",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "midjourney"
+  },
+  {
+   "name": "Mintlify",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "mintlify"
+  },
+  {
+   "name": "Miro",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "miro"
+  },
+  {
+   "name": "Modal",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "modal"
+  },
+  {
+   "name": "MongoDB",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "mongodb"
+  },
+  {
+   "name": "MotherDuck",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "motherduck"
+  },
+  {
+   "name": "Netlify",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "netlify"
+  },
+  {
+   "name": "Normal Computing",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "normalcomputing"
+  },
+  {
+   "name": "Notion",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "notion"
+  },
+  {
+   "name": "Nous Research",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "nousresearch"
+  },
+  {
+   "name": "OpenAI",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "openai"
+  },
+  {
+   "name": "Otter.ai",
+   "sector": "AI apps",
+   "ats": "greenhouse",
+   "token": "otterai"
+  },
+  {
+   "name": "Perplexity",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "perplexity"
+  },
+  {
+   "name": "Physical Intelligence",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "physicalintelligence"
+  },
+  {
+   "name": "Pika",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "pika"
+  },
+  {
+   "name": "Pinecone",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "pinecone"
+  },
+  {
+   "name": "PlanetScale",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "planetscale"
+  },
+  {
+   "name": "Poolside",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "poolside"
+  },
+  {
+   "name": "PostHog",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "posthog"
+  },
+  {
+   "name": "Prime Intellect",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "primeintellect"
+  },
+  {
+   "name": "Railway",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "railway"
+  },
+  {
+   "name": "Reflection AI",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "reflectionai"
+  },
+  {
+   "name": "Reka",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "reka"
+  },
+  {
+   "name": "Render",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "render"
+  },
+  {
+   "name": "Replit",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "replit"
+  },
+  {
+   "name": "Retell AI",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "retell-ai"
+  },
+  {
+   "name": "Rogo",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "rogo"
+  },
+  {
+   "name": "Runway",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "runway"
+  },
+  {
+   "name": "Scale AI",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "scaleai"
+  },
+  {
+   "name": "Sentry",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "sentry"
+  },
+  {
+   "name": "Sierra",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "sierra"
+  },
+  {
+   "name": "SingleStore",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "singlestore"
+  },
+  {
+   "name": "Snorkel AI",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "snorkelai"
+  },
+  {
+   "name": "Snowflake",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "snowflake"
+  },
+  {
+   "name": "Speak",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "speak"
+  },
+  {
+   "name": "Stability AI",
+   "sector": "Frontier labs",
+   "ats": "greenhouse",
+   "token": "stabilityai"
+  },
+  {
+   "name": "StackBlitz",
+   "sector": "AI apps",
+   "ats": "greenhouse",
+   "token": "stackblitz"
+  },
+  {
+   "name": "Suno",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "suno"
+  },
+  {
+   "name": "Supabase",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "supabase"
+  },
+  {
+   "name": "Surge AI",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "surge-ai"
+  },
+  {
+   "name": "Synthesia",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "synthesia"
+  },
+  {
+   "name": "Tailscale",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "tailscale"
+  },
+  {
+   "name": "Tavus",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "tavus"
+  },
+  {
+   "name": "Temporal",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "temporal"
+  },
+  {
+   "name": "Tenstorrent",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "tenstorrent"
+  },
+  {
+   "name": "Together AI",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "togetherai"
+  },
+  {
+   "name": "Vapi",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "vapi"
+  },
+  {
+   "name": "Vercel",
+   "sector": "AI infrastructure",
+   "ats": "greenhouse",
+   "token": "vercel"
+  },
+  {
+   "name": "Warp",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "warp"
+  },
+  {
+   "name": "Weaviate",
+   "sector": "AI infrastructure",
+   "ats": "ashby",
+   "token": "weaviate"
+  },
+  {
+   "name": "World Labs",
+   "sector": "Frontier labs",
+   "ats": "ashby",
+   "token": "worldlabs"
+  },
+  {
+   "name": "Writer",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "writer"
+  },
+  {
+   "name": "xAI",
+   "sector": "Frontier labs",
+   "ats": "greenhouse",
+   "token": "xai"
+  },
+  {
+   "name": "Zapier",
+   "sector": "AI apps",
+   "ats": "ashby",
+   "token": "zapier"
+  }
+ ]
+}

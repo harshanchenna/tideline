@@ -1,0 +1,56 @@
+# One daily pass: fetch every lane, commit the snapshots, events and digest (the git history is
+# the dataset), then publish the rendered site to GitHub Pages. No tokens are stored: the commit
+# uses the workflow's GITHUB_TOKEN and Pages deploys via OIDC. The brief is opt-in: it runs only
+# if an ANTHROPIC_API_KEY repository secret exists.
+name: daily
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+concurrency:
+  group: daily
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0  # the engine diffs against the last commit before today
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Install Claude Code (brief only)
+        if: env.ANTHROPIC_API_KEY != ''
+        run: npm install -g @anthropic-ai/claude-code
+      - name: Run
+        run: python -m tideline run $([ -n "$ANTHROPIC_API_KEY" ] && echo --brief)
+      - name: Commit the day
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snapshots events digests
+          if ! git diff --cached --quiet; then
+            git commit -q -m "data $(date -u +%F): $(python -c 'import json,glob;p=sorted(glob.glob("digests/*/*/*.json"))[-1];print(len(json.load(open(p))["signals"]),"signals")')"
+            git push -q origin HEAD:main
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+  deploy:
+    needs: run
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

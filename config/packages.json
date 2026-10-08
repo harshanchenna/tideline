@@ -1,0 +1,14 @@
+{
+ "_comment": "AI SDKs, frameworks, inference engines and tooling to watch. Add freely; ids are ecosystem:name.",
+ "pypi": ["anthropic", "openai", "google-genai", "mistralai", "cohere", "groq", "together", "mcp", "fastmcp",
+          "claude-agent-sdk", "openai-agents", "langchain", "langgraph", "llama-index", "dspy", "pydantic-ai",
+          "crewai", "autogen-agentchat", "smolagents", "instructor", "outlines", "litellm", "transformers",
+          "huggingface-hub", "datasets", "accelerate", "peft", "trl", "unsloth", "vllm", "sglang",
+          "llama-cpp-python", "mlx-lm", "ollama", "torch", "jax", "chromadb", "qdrant-client", "lancedb",
+          "pinecone", "weaviate-client", "langfuse", "arize-phoenix", "ragas", "deepeval", "inspect-ai"],
+ "npm": ["@anthropic-ai/sdk", "openai", "@google/genai", "@mistralai/mistralai", "@modelcontextprotocol/sdk",
+         "fastmcp", "ai", "@ai-sdk/anthropic", "@ai-sdk/openai", "langchain", "@langchain/core",
+         "@langchain/langgraph", "llamaindex", "@openai/agents", "@anthropic-ai/claude-agent-sdk",
+         "@anthropic-ai/claude-code", "@openai/codex", "@google/gemini-cli", "@mastra/core", "ollama",
+         "@huggingface/transformers", "@playwright/mcp"]
+}

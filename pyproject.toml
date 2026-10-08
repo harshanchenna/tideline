@@ -1,0 +1,16 @@
+[project]
+name = "tideline"
+version = "0.1.0"
+description = "A git log of the AI industry: models, MCP servers, packages, outages and team-building, diffed daily."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "Harshan Chenna", email = "53590198+harshanchenna@users.noreply.github.com" }]
+dependencies = []
+
+[project.scripts]
+tideline = "tideline.__main__:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

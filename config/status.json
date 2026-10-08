@@ -1,0 +1,16 @@
+{
+ "_comment": "Public Atlassian Statuspage feeds. Each must serve /api/v2/incidents.json.",
+ "Anthropic": "https://status.anthropic.com",
+ "OpenAI": "https://status.openai.com",
+ "Cohere": "https://status.cohere.com",
+ "Hugging Face": "https://status.huggingface.co",
+ "Together AI": "https://status.together.ai",
+ "Fireworks AI": "https://status.fireworks.ai",
+ "Groq": "https://groqstatus.com",
+ "Perplexity": "https://status.perplexity.com",
+ "ElevenLabs": "https://status.elevenlabs.io",
+ "Replicate": "https://status.replicate.com",
+ "Cursor": "https://status.cursor.com",
+ "Deepgram": "https://status.deepgram.com",
+ "GitHub": "https://www.githubstatus.com"
+}

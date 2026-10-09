@@ -1,0 +1,3470 @@
+{
+ "brief": null,
+ "date": "2026-10-09",
+ "health": {
+  "mcp": {
+   "bootstrap": false,
+   "date": "2026-10-09",
+   "entities": 41093,
+   "error": null,
+   "events": 3068,
+   "last_ok": "2026-10-09",
+   "ok": true
+  },
+  "models": {
+   "bootstrap": false,
+   "date": "2026-10-09",
+   "entities": 469,
+   "error": null,
+   "events": 51,
+   "last_ok": "2026-10-09",
+   "ok": true
+  },
+  "packages": {
+   "bootstrap": false,
+   "date": "2026-10-09",
+   "entities": 68,
+   "error": null,
+   "events": 34,
+   "last_ok": "2026-10-09",
+   "ok": true
+  },
+  "reliability": {
+   "bootstrap": false,
+   "date": "2026-10-09",
+   "entities": 350,
+   "error": null,
+   "events": 7,
+   "last_ok": "2026-10-09",
+   "ok": true
+  },
+  "teams": {
+   "bootstrap": false,
+   "date": "2026-10-09",
+   "entities": 131,
+   "error": null,
+   "events": 0,
+   "last_ok": "2026-10-09",
+   "ok": true
+  }
+ },
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "detail": "io.github.RCOLKITT/ccboot-mcp-server, io.github.Wxt-ai/access-review-checklist, io.github.Wxt-ai/account-group-report-builder, io.github.Wxt-ai/account-group-report-complete, io.github.Wxt-ai/account-group-report-identifier, io.github.Wxt-ai/account-group-report-workbench",
+   "items": [
+    {
+     "label": "ccboot-mcp-server (io.github.RCOLKITT/ccboot-mcp-server)",
+     "note": "",
+     "url": "https://github.com/RCOLKITT/ClaudeCode-Boot-MCP"
+    },
+    {
+     "label": "Access Review Checklist (io.github.Wxt-ai/access-review-checklist)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/access-review-checklist"
+    },
+    {
+     "label": "Account Group Report Builder (io.github.Wxt-ai/account-group-report-builder)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/account-group-report-builder"
+    },
+    {
+     "label": "Account Report Recipe Planner (io.github.Wxt-ai/account-group-report-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/account-group-report-complete"
+    },
+    {
+     "label": "Account Report Recipe Planner (io.github.Wxt-ai/account-group-report-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/account-group-report-identifier"
+    },
+    {
+     "label": "Account Group Report Builder (io.github.Wxt-ai/account-group-report-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/account-group-report-workbench"
+    },
+    {
+     "label": "Account Merge Guide (io.github.Wxt-ai/account-merge-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/account-merge-guide"
+    },
+    {
+     "label": "Account Merge Workbench (io.github.Wxt-ai/account-merge-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/account-merge-workbench"
+    },
+    {
+     "label": "Account Report Recipe Planner (io.github.Wxt-ai/account-report-recipe-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/account-report-recipe-planner"
+    },
+    {
+     "label": "Agreement Obligation Reader (io.github.Wxt-ai/agreement-obligation-reader)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/agreement-obligation-reader"
+    },
+    {
+     "label": "Agreement Obligation Reader (io.github.Wxt-ai/agreement-renewal-schedule-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/agreement-renewal-schedule-complete"
+    },
+    {
+     "label": "Agreement Obligation Reader (io.github.Wxt-ai/agreement-renewal-schedule-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/agreement-renewal-schedule-identifier"
+    },
+    {
+     "label": "Renewal Schedule Desk (io.github.Wxt-ai/agreement-renewal-schedule-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/agreement-renewal-schedule-workbench"
+    },
+    {
+     "label": "Service Assignment Guide (io.github.Wxt-ai/alert-escalation-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/alert-escalation-guidance-complete"
+    },
+    {
+     "label": "Service Assignment Guide (io.github.Wxt-ai/alert-escalation-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/alert-escalation-guidance-identifier"
+    },
+    {
+     "label": "Incident Assignment Desk (io.github.Wxt-ai/alert-escalation-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/alert-escalation-guidance-workbench"
+    },
+    {
+     "label": "Approval Group Directory (io.github.Wxt-ai/approval-group-directory)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/approval-group-directory"
+    },
+    {
+     "label": "Artifact Delivery Desk (io.github.Wxt-ai/artifact-delivery-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/artifact-delivery-desk"
+    },
+    {
+     "label": "Artifact Delivery Planner (io.github.Wxt-ai/artifact-delivery-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/artifact-delivery-planner"
+    },
+    {
+     "label": "Artifact Delivery Planner (io.github.Wxt-ai/artifact-export-route-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/artifact-export-route-complete"
+    },
+    {
+     "label": "Artifact Delivery Planner (io.github.Wxt-ai/artifact-export-route-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/artifact-export-route-identifier"
+    },
+    {
+     "label": "Artifact Delivery Desk (io.github.Wxt-ai/artifact-export-route-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/artifact-export-route-workbench"
+    },
+    {
+     "label": "Audience Readiness Guide (io.github.Wxt-ai/audience-readiness-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/audience-readiness-guidance-complete"
+    },
+    {
+     "label": "Audience Readiness Guide (io.github.Wxt-ai/audience-readiness-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/audience-readiness-guidance-identifier"
+    },
+    {
+     "label": "Client Brief Composer (io.github.Wxt-ai/audience-readiness-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/audience-readiness-guidance-workbench"
+    },
+    {
+     "label": "Audience Readiness Guide (io.github.Wxt-ai/audience-readiness-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/audience-readiness-guide"
+    },
+    {
+     "label": "Campaign Budget Forecaster (io.github.Wxt-ai/budget-planning-units-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/budget-planning-units-complete"
+    },
+    {
+     "label": "Campaign Budget Forecaster (io.github.Wxt-ai/budget-planning-units-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/budget-planning-units-identifier"
+    },
+    {
+     "label": "Scenario Planning Ledger (io.github.Wxt-ai/budget-planning-units-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/budget-planning-units-workbench"
+    },
+    {
+     "label": "Calendar Handoff Reader (io.github.Wxt-ai/calendar-coordination-entry-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/calendar-coordination-entry-complete"
+    },
+    {
+     "label": "Calendar Handoff Reader (io.github.Wxt-ai/calendar-coordination-entry-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/calendar-coordination-entry-identifier"
+    },
+    {
+     "label": "Coordination Calendar Desk (io.github.Wxt-ai/calendar-coordination-entry-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/calendar-coordination-entry-workbench"
+    },
+    {
+     "label": "Calendar Handoff Reader (io.github.Wxt-ai/calendar-handoff-reader)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/calendar-handoff-reader"
+    },
+    {
+     "label": "Campaign Budget Forecaster (io.github.Wxt-ai/campaign-budget-forecaster)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/campaign-budget-forecaster"
+    },
+    {
+     "label": "Candidate Skills Mapper (io.github.Wxt-ai/candidate-interview-agenda-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/candidate-interview-agenda-complete"
+    },
+    {
+     "label": "Candidate Skills Mapper (io.github.Wxt-ai/candidate-interview-agenda-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/candidate-interview-agenda-identifier"
+    },
+    {
+     "label": "Interview Agenda Builder (io.github.Wxt-ai/candidate-interview-agenda-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/candidate-interview-agenda-workbench"
+    },
+    {
+     "label": "Candidate Skills Mapper (io.github.Wxt-ai/candidate-skills-mapper)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/candidate-skills-mapper"
+    },
+    {
+     "label": "Capacity Ledger Desk (io.github.Wxt-ai/capacity-ledger-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/capacity-ledger-desk"
+    },
+    {
+     "label": "Client Brief Composer (io.github.Wxt-ai/client-brief-composer)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/client-brief-composer"
+    },
+    {
+     "label": "Client Brief Routing Desk (io.github.Wxt-ai/client-brief-routing-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/client-brief-routing-desk"
+    },
+    {
+     "label": "Runbook Option Planner (io.github.Wxt-ai/command-summary-option-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/command-summary-option-identifier"
+    },
+    {
+     "label": "Runbook Example Catalog (io.github.Wxt-ai/command-summary-option-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/command-summary-option-workbench"
+    },
+    {
+     "label": "Content Handling Guide (io.github.Wxt-ai/content-handling-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/content-handling-guide"
+    },
+    {
+     "label": "Content Handling Guide (io.github.Wxt-ai/content-review-mode-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/content-review-mode-complete"
+    },
+    {
+     "label": "Content Handling Guide (io.github.Wxt-ai/content-review-mode-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/content-review-mode-identifier"
+    },
+    {
+     "label": "Content Review Planner (io.github.Wxt-ai/content-review-mode-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/content-review-mode-workbench"
+    },
+    {
+     "label": "Content Review Planner (io.github.Wxt-ai/content-review-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/content-review-planner"
+    },
+    {
+     "label": "Coordination Calendar Desk (io.github.Wxt-ai/coordination-calendar-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/coordination-calendar-desk"
+    },
+    {
+     "label": "Customer Record Field Prep (io.github.Wxt-ai/customer-record-field-prep)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/customer-record-field-prep"
+    },
+    {
+     "label": "Deadline Locale Guide (io.github.Wxt-ai/deadline-locale-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/deadline-locale-guidance-complete"
+    },
+    {
+     "label": "Deadline Locale Guide (io.github.Wxt-ai/deadline-locale-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/deadline-locale-guidance-identifier"
+    },
+    {
+     "label": "Milestone Schedule Register (io.github.Wxt-ai/deadline-locale-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/deadline-locale-guidance-workbench"
+    },
+    {
+     "label": "Deadline Locale Guide (io.github.Wxt-ai/deadline-locale-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/deadline-locale-guide"
+    },
+    {
+     "label": "Delivery Acknowledgement Guide (io.github.Wxt-ai/delivery-acknowledgement-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-acknowledgement-guide"
+    },
+    {
+     "label": "Delivery Document Composer (io.github.Wxt-ai/delivery-document-composer)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-document-composer"
+    },
+    {
+     "label": "Delivery Receipt Desk (io.github.Wxt-ai/delivery-receipt-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-receipt-desk"
+    },
+    {
+     "label": "Delivery Recovery Guide (io.github.Wxt-ai/delivery-recovery-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-recovery-guidance-complete"
+    },
+    {
+     "label": "Delivery Recovery Guide (io.github.Wxt-ai/delivery-recovery-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-recovery-guidance-identifier"
+    },
+    {
+     "label": "Handoff Recovery Desk (io.github.Wxt-ai/delivery-recovery-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-recovery-guidance-workbench"
+    },
+    {
+     "label": "Delivery Recovery Guide (io.github.Wxt-ai/delivery-recovery-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-recovery-guide"
+    },
+    {
+     "label": "Delivery Requirement Advisor (io.github.Wxt-ai/delivery-requirement-advisor)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-requirement-advisor"
+    },
+    {
+     "label": "Delivery Requirement Advisor (io.github.Wxt-ai/delivery-signature-requirement-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-signature-requirement-complete"
+    },
+    {
+     "label": "Delivery Requirement Advisor (io.github.Wxt-ai/delivery-signature-requirement-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-signature-requirement-identifier"
+    },
+    {
+     "label": "Delivery Document Composer (io.github.Wxt-ai/delivery-signature-requirement-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-signature-requirement-workbench"
+    },
+    {
+     "label": "Delivery Update Ledger (io.github.Wxt-ai/delivery-update-ledger)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/delivery-update-ledger"
+    },
+    {
+     "label": "Deployment Brief Register (io.github.Wxt-ai/deployment-brief-register)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/deployment-brief-register"
+    },
+    {
+     "label": "Dispatch Manifest Builder (io.github.Wxt-ai/dispatch-manifest-builder)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/dispatch-manifest-builder"
+    },
+    {
+     "label": "Document Release Guide (io.github.Wxt-ai/document-release-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/document-release-guide"
+    },
+    {
+     "label": "Document Release Selector (io.github.Wxt-ai/document-release-selector)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/document-release-selector"
+    },
+    {
+     "label": "Document Release Guide (io.github.Wxt-ai/draft-precedence-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/draft-precedence-guidance-complete"
+    },
+    {
+     "label": "Document Release Guide (io.github.Wxt-ai/draft-precedence-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/draft-precedence-guidance-identifier"
+    },
+    {
+     "label": "Document Release Selector (io.github.Wxt-ai/draft-precedence-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/draft-precedence-guidance-workbench"
+    },
+    {
+     "label": "Event Callback Planner (io.github.Wxt-ai/event-callback-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/event-callback-planner"
+    },
+    {
+     "label": "Event Callback Planner (io.github.Wxt-ai/event-callback-url-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/event-callback-url-complete"
+    },
+    {
+     "label": "Event Callback Planner (io.github.Wxt-ai/event-callback-url-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/event-callback-url-identifier"
+    },
+    {
+     "label": "Subscription Receipt Desk (io.github.Wxt-ai/event-callback-url-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/event-callback-url-workbench"
+    },
+    {
+     "label": "Executive Report Style Guide (io.github.Wxt-ai/executive-report-style-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/executive-report-style-guide"
+    },
+    {
+     "label": "Delivery Acknowledgement Guide (io.github.Wxt-ai/export-confirmation-style-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/export-confirmation-style-complete"
+    },
+    {
+     "label": "Delivery Acknowledgement Guide (io.github.Wxt-ai/export-confirmation-style-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/export-confirmation-style-identifier"
+    },
+    {
+     "label": "Delivery Receipt Desk (io.github.Wxt-ai/export-confirmation-style-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/export-confirmation-style-workbench"
+    },
+    {
+     "label": "Field Route Sequencer (io.github.Wxt-ai/field-route-manifest-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/field-route-manifest-complete"
+    },
+    {
+     "label": "Field Route Sequencer (io.github.Wxt-ai/field-route-manifest-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/field-route-manifest-identifier"
+    },
+    {
+     "label": "Dispatch Manifest Builder (io.github.Wxt-ai/field-route-manifest-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/field-route-manifest-workbench"
+    },
+    {
+     "label": "Field Route Sequencer (io.github.Wxt-ai/field-route-sequencer)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/field-route-sequencer"
+    },
+    {
+     "label": "Finance Review Mailer (io.github.Wxt-ai/finance-review-mailer)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/finance-review-mailer"
+    },
+    {
+     "label": "Fulfillment Reservation Ledger (io.github.Wxt-ai/fulfillment-reservation-ledger)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/fulfillment-reservation-ledger"
+    },
+    {
+     "label": "Handoff Recovery Desk (io.github.Wxt-ai/handoff-recovery-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/handoff-recovery-desk"
+    },
+    {
+     "label": "Incident Assignment Desk (io.github.Wxt-ai/incident-assignment-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/incident-assignment-desk"
+    },
+    {
+     "label": "Interview Agenda Builder (io.github.Wxt-ai/interview-agenda-builder)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/interview-agenda-builder"
+    },
+    {
+     "label": "Lot Allocation Planner (io.github.Wxt-ai/inventory-fulfillment-reservation-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/inventory-fulfillment-reservation-complete"
+    },
+    {
+     "label": "Lot Allocation Planner (io.github.Wxt-ai/inventory-fulfillment-reservation-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/inventory-fulfillment-reservation-identifier"
+    },
+    {
+     "label": "Fulfillment Reservation Ledger (io.github.Wxt-ai/inventory-fulfillment-reservation-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/inventory-fulfillment-reservation-workbench"
+    },
+    {
+     "label": "Inventory Planning Ledger (io.github.Wxt-ai/inventory-planning-ledger)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/inventory-planning-ledger"
+    },
+    {
+     "label": "Stock Replenishment Planner (io.github.Wxt-ai/inventory-reorder-quantity-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/inventory-reorder-quantity-complete"
+    },
+    {
+     "label": "Stock Replenishment Planner (io.github.Wxt-ai/inventory-reorder-quantity-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/inventory-reorder-quantity-identifier"
+    },
+    {
+     "label": "Inventory Planning Ledger (io.github.Wxt-ai/inventory-reorder-quantity-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/inventory-reorder-quantity-workbench"
+    },
+    {
+     "label": "Reconciliation Threshold Planner (io.github.Wxt-ai/invoice-match-threshold-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/invoice-match-threshold-complete"
+    },
+    {
+     "label": "Reconciliation Threshold Planner (io.github.Wxt-ai/invoice-match-threshold-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/invoice-match-threshold-identifier"
+    },
+    {
+     "label": "Invoice Matching Desk (io.github.Wxt-ai/invoice-match-threshold-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/invoice-match-threshold-workbench"
+    },
+    {
+     "label": "Invoice Matching Desk (io.github.Wxt-ai/invoice-matching-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/invoice-matching-desk"
+    },
+    {
+     "label": "Invoice Rounding Guide (io.github.Wxt-ai/invoice-rounding-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/invoice-rounding-guidance-complete"
+    },
+    {
+     "label": "Invoice Rounding Guide (io.github.Wxt-ai/invoice-rounding-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/invoice-rounding-guidance-identifier"
+    },
+    {
+     "label": "Invoice Summary Calculator (io.github.Wxt-ai/invoice-rounding-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/invoice-rounding-guidance-workbench"
+    },
+    {
+     "label": "Invoice Rounding Guide (io.github.Wxt-ai/invoice-rounding-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/invoice-rounding-guide"
+    },
+    {
+     "label": "Invoice Summary Calculator (io.github.Wxt-ai/invoice-summary-calculator)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/invoice-summary-calculator"
+    },
+    {
+     "label": "Job Queue Register (io.github.Wxt-ai/job-queue-register)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/job-queue-register"
+    },
+    {
+     "label": "Knowledge Index Curator (io.github.Wxt-ai/knowledge-index-curator)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/knowledge-index-curator"
+    },
+    {
+     "label": "Knowledge Note Segmenter (io.github.Wxt-ai/knowledge-note-segmenter)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/knowledge-note-segmenter"
+    },
+    {
+     "label": "Knowledge Placement Planner (io.github.Wxt-ai/knowledge-placement-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/knowledge-placement-planner"
+    },
+    {
+     "label": "Knowledge Note Segmenter (io.github.Wxt-ai/knowledge-section-index-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/knowledge-section-index-complete"
+    },
+    {
+     "label": "Knowledge Note Segmenter (io.github.Wxt-ai/knowledge-section-index-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/knowledge-section-index-identifier"
+    },
+    {
+     "label": "Knowledge Index Curator (io.github.Wxt-ai/knowledge-section-index-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/knowledge-section-index-workbench"
+    },
+    {
+     "label": "Localization Setting Planner (io.github.Wxt-ai/localization-setting-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/localization-setting-planner"
+    },
+    {
+     "label": "Lot Allocation Planner (io.github.Wxt-ai/lot-allocation-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/lot-allocation-planner"
+    },
+    {
+     "label": "Metric Trend Calculator (io.github.Wxt-ai/metric-stakeholder-digest-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/metric-stakeholder-digest-complete"
+    },
+    {
+     "label": "Metric Trend Calculator (io.github.Wxt-ai/metric-stakeholder-digest-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/metric-stakeholder-digest-identifier"
+    },
+    {
+     "label": "Stakeholder Metric Digest (io.github.Wxt-ai/metric-stakeholder-digest-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/metric-stakeholder-digest-workbench"
+    },
+    {
+     "label": "Metric Trend Calculator (io.github.Wxt-ai/metric-trend-calculator)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/metric-trend-calculator"
+    },
+    {
+     "label": "Milestone Schedule Register (io.github.Wxt-ai/milestone-schedule-register)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/milestone-schedule-register"
+    },
+    {
+     "label": "Notification Cadence Guide (io.github.Wxt-ai/notification-cadence-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/notification-cadence-guidance-complete"
+    },
+    {
+     "label": "Notification Cadence Guide (io.github.Wxt-ai/notification-cadence-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/notification-cadence-guidance-identifier"
+    },
+    {
+     "label": "Operations Digest Composer (io.github.Wxt-ai/notification-cadence-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/notification-cadence-guidance-workbench"
+    },
+    {
+     "label": "Notification Cadence Guide (io.github.Wxt-ai/notification-cadence-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/notification-cadence-guide"
+    },
+    {
+     "label": "Operations Digest Composer (io.github.Wxt-ai/operations-digest-composer)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/operations-digest-composer"
+    },
+    {
+     "label": "Operations Schedule Builder (io.github.Wxt-ai/operations-schedule-builder)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/operations-schedule-builder"
+    },
+    {
+     "label": "Processing Capacity Planner (io.github.Wxt-ai/processing-capacity-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/processing-capacity-planner"
+    },
+    {
+     "label": "Processing Capacity Planner (io.github.Wxt-ai/processing-capacity-profile-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/processing-capacity-profile-complete"
+    },
+    {
+     "label": "Processing Capacity Planner (io.github.Wxt-ai/processing-capacity-profile-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/processing-capacity-profile-identifier"
+    },
+    {
+     "label": "Job Queue Register (io.github.Wxt-ai/processing-capacity-profile-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/processing-capacity-profile-workbench"
+    },
+    {
+     "label": "Profile Governance Register (io.github.Wxt-ai/profile-governance-register)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/profile-governance-register"
+    },
+    {
+     "label": "Retention Policy Planner (io.github.Wxt-ai/profile-retention-key-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/profile-retention-key-identifier"
+    },
+    {
+     "label": "Profile Governance Register (io.github.Wxt-ai/profile-retention-key-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/profile-retention-key-workbench"
+    },
+    {
+     "label": "Profile Setting Directory (io.github.Wxt-ai/profile-setting-directory)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/profile-setting-directory"
+    },
+    {
+     "label": "Profile Setting Directory (io.github.Wxt-ai/profile-setting-key-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/profile-setting-key-complete"
+    },
+    {
+     "label": "Profile Setting Directory (io.github.Wxt-ai/profile-setting-key-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/profile-setting-key-identifier"
+    },
+    {
+     "label": "Profile Governance Register (io.github.Wxt-ai/profile-setting-key-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/profile-setting-key-workbench"
+    },
+    {
+     "label": "Project Intake Identifier (io.github.Wxt-ai/project-code-notes-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/project-code-notes-complete"
+    },
+    {
+     "label": "Project Intake Identifier (io.github.Wxt-ai/project-code-notes-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/project-code-notes-identifier"
+    },
+    {
+     "label": "Delivery Update Ledger (io.github.Wxt-ai/project-code-notes-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/project-code-notes-workbench"
+    },
+    {
+     "label": "Project Intake Identifier (io.github.Wxt-ai/project-intake-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/project-intake-identifier"
+    },
+    {
+     "label": "Purchase Draft Desk (io.github.Wxt-ai/purchase-draft-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/purchase-draft-desk"
+    },
+    {
+     "label": "Reconciliation Threshold Planner (io.github.Wxt-ai/reconciliation-threshold-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/reconciliation-threshold-planner"
+    },
+    {
+     "label": "Customer Record Field Prep (io.github.Wxt-ai/record-export-field-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/record-export-field-complete"
+    },
+    {
+     "label": "Customer Record Field Prep (io.github.Wxt-ai/record-export-field-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/record-export-field-identifier"
+    },
+    {
+     "label": "Reporting Export Assembler (io.github.Wxt-ai/record-export-field-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/record-export-field-workbench"
+    },
+    {
+     "label": "Referral Handoff Reader (io.github.Wxt-ai/referral-handoff-packet-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/referral-handoff-packet-complete"
+    },
+    {
+     "label": "Referral Handoff Reader (io.github.Wxt-ai/referral-handoff-packet-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/referral-handoff-packet-identifier"
+    },
+    {
+     "label": "Referral Packet Desk (io.github.Wxt-ai/referral-handoff-packet-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/referral-handoff-packet-workbench"
+    },
+    {
+     "label": "Referral Handoff Reader (io.github.Wxt-ai/referral-handoff-reader)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/referral-handoff-reader"
+    },
+    {
+     "label": "Referral Packet Desk (io.github.Wxt-ai/referral-packet-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/referral-packet-desk"
+    },
+    {
+     "label": "Regional Rollout Planner (io.github.Wxt-ai/regional-rollout-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/regional-rollout-planner"
+    },
+    {
+     "label": "Release Branch Planner (io.github.Wxt-ai/release-branch-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-branch-planner"
+    },
+    {
+     "label": "Release Branch Planner (io.github.Wxt-ai/release-branch-policy-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-branch-policy-complete"
+    },
+    {
+     "label": "Release Branch Policy Desk (io.github.Wxt-ai/release-branch-policy-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-branch-policy-desk"
+    },
+    {
+     "label": "Release Branch Planner (io.github.Wxt-ai/release-branch-policy-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-branch-policy-identifier"
+    },
+    {
+     "label": "Release Branch Policy Desk (io.github.Wxt-ai/release-branch-policy-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-branch-policy-workbench"
+    },
+    {
+     "label": "Release Change Analyzer (io.github.Wxt-ai/release-change-analyzer)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-change-analyzer"
+    },
+    {
+     "label": "Release Configuration Brief (io.github.Wxt-ai/release-configuration-brief)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-configuration-brief"
+    },
+    {
+     "label": "Release Notes Journal (io.github.Wxt-ai/release-notes-journal)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-notes-journal"
+    },
+    {
+     "label": "Release Configuration Brief (io.github.Wxt-ai/release-report-label-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-report-label-complete"
+    },
+    {
+     "label": "Release Configuration Brief (io.github.Wxt-ai/release-report-label-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-report-label-identifier"
+    },
+    {
+     "label": "Stakeholder Report Publisher (io.github.Wxt-ai/release-report-label-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/release-report-label-workbench"
+    },
+    {
+     "label": "Renewal Schedule Desk (io.github.Wxt-ai/renewal-schedule-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/renewal-schedule-desk"
+    },
+    {
+     "label": "Executive Report Style Guide (io.github.Wxt-ai/report-style-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/report-style-guidance-complete"
+    },
+    {
+     "label": "Executive Report Style Guide (io.github.Wxt-ai/report-style-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/report-style-guidance-identifier"
+    },
+    {
+     "label": "Status Report Formatter (io.github.Wxt-ai/report-style-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/report-style-guidance-workbench"
+    },
+    {
+     "label": "Reporting Export Assembler (io.github.Wxt-ai/reporting-export-assembler)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/reporting-export-assembler"
+    },
+    {
+     "label": "Release Change Analyzer (io.github.Wxt-ai/repository-release-changes-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/repository-release-changes-complete"
+    },
+    {
+     "label": "Release Change Analyzer (io.github.Wxt-ai/repository-release-changes-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/repository-release-changes-identifier"
+    },
+    {
+     "label": "Release Notes Journal (io.github.Wxt-ai/repository-release-changes-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/repository-release-changes-workbench"
+    },
+    {
+     "label": "Request Review Register (io.github.Wxt-ai/request-review-register)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/request-review-register"
+    },
+    {
+     "label": "Approval Group Directory (io.github.Wxt-ai/reviewer-group-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/reviewer-group-complete"
+    },
+    {
+     "label": "Approval Group Directory (io.github.Wxt-ai/reviewer-group-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/reviewer-group-identifier"
+    },
+    {
+     "label": "Request Review Register (io.github.Wxt-ai/reviewer-group-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/reviewer-group-workbench"
+    },
+    {
+     "label": "Account Merge Guide (io.github.Wxt-ai/revision-handling-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/revision-handling-guidance-complete"
+    },
+    {
+     "label": "Account Merge Guide (io.github.Wxt-ai/revision-handling-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/revision-handling-guidance-identifier"
+    },
+    {
+     "label": "Account Merge Workbench (io.github.Wxt-ai/revision-handling-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/revision-handling-guidance-workbench"
+    },
+    {
+     "label": "Regional Rollout Planner (io.github.Wxt-ai/rollout-region-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/rollout-region-complete"
+    },
+    {
+     "label": "Regional Rollout Planner (io.github.Wxt-ai/rollout-region-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/rollout-region-identifier"
+    },
+    {
+     "label": "Deployment Brief Register (io.github.Wxt-ai/rollout-region-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/rollout-region-workbench"
+    },
+    {
+     "label": "Client Brief Routing Desk (io.github.Wxt-ai/routing-contact-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/routing-contact-complete"
+    },
+    {
+     "label": "Client Brief Routing Desk (io.github.Wxt-ai/routing-contact-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/routing-contact-identifier"
+    },
+    {
+     "label": "Finance Review Mailer (io.github.Wxt-ai/routing-contact-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/routing-contact-workbench"
+    },
+    {
+     "label": "Scenario Planning Ledger (io.github.Wxt-ai/scenario-planning-ledger)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/scenario-planning-ledger"
+    },
+    {
+     "label": "Service Assignment Guide (io.github.Wxt-ai/service-assignment-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/service-assignment-guide"
+    },
+    {
+     "label": "Service Capacity Window Planner (io.github.Wxt-ai/service-capacity-window-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/service-capacity-window-complete"
+    },
+    {
+     "label": "Service Capacity Window Planner (io.github.Wxt-ai/service-capacity-window-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/service-capacity-window-identifier"
+    },
+    {
+     "label": "Service Capacity Window Planner (io.github.Wxt-ai/service-capacity-window-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/service-capacity-window-planner"
+    },
+    {
+     "label": "Capacity Ledger Desk (io.github.Wxt-ai/service-capacity-window-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/service-capacity-window-workbench"
+    },
+    {
+     "label": "Service Class Planner (io.github.Wxt-ai/service-class-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/service-class-planner"
+    },
+    {
+     "label": "Source Agreement Guide (io.github.Wxt-ai/source-agreement-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/source-agreement-guide"
+    },
+    {
+     "label": "Source Agreement Guide (io.github.Wxt-ai/source-assurance-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/source-assurance-guidance-complete"
+    },
+    {
+     "label": "Source Agreement Guide (io.github.Wxt-ai/source-assurance-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/source-assurance-guidance-identifier"
+    },
+    {
+     "label": "Source Resolution Desk (io.github.Wxt-ai/source-assurance-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/source-assurance-guidance-workbench"
+    },
+    {
+     "label": "Source Resolution Desk (io.github.Wxt-ai/source-resolution-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/source-resolution-desk"
+    },
+    {
+     "label": "Stakeholder Metric Digest (io.github.Wxt-ai/stakeholder-metric-digest)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/stakeholder-metric-digest"
+    },
+    {
+     "label": "Stakeholder Report Publisher (io.github.Wxt-ai/stakeholder-report-publisher)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/stakeholder-report-publisher"
+    },
+    {
+     "label": "Status Report Formatter (io.github.Wxt-ai/status-report-formatter)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/status-report-formatter"
+    },
+    {
+     "label": "Stock Replenishment Planner (io.github.Wxt-ai/stock-replenishment-planner)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/stock-replenishment-planner"
+    },
+    {
+     "label": "Subscription Receipt Desk (io.github.Wxt-ai/subscription-receipt-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/subscription-receipt-desk"
+    },
+    {
+     "label": "Supplier Name Resolution Guide (io.github.Wxt-ai/supplier-name-resolution-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/supplier-name-resolution-complete"
+    },
+    {
+     "label": "Supplier Name Resolution Guide (io.github.Wxt-ai/supplier-name-resolution-guide)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/supplier-name-resolution-guide"
+    },
+    {
+     "label": "Supplier Name Resolution Guide (io.github.Wxt-ai/supplier-name-resolution-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/supplier-name-resolution-identifier"
+    },
+    {
+     "label": "Supplier Reconciliation Desk (io.github.Wxt-ai/supplier-name-resolution-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/supplier-name-resolution-workbench"
+    },
+    {
+     "label": "Supplier Terms Reader (io.github.Wxt-ai/supplier-purchase-draft-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/supplier-purchase-draft-complete"
+    },
+    {
+     "label": "Supplier Terms Reader (io.github.Wxt-ai/supplier-purchase-draft-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/supplier-purchase-draft-identifier"
+    },
+    {
+     "label": "Purchase Draft Desk (io.github.Wxt-ai/supplier-purchase-draft-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/supplier-purchase-draft-workbench"
+    },
+    {
+     "label": "Supplier Reconciliation Desk (io.github.Wxt-ai/supplier-reconciliation-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/supplier-reconciliation-desk"
+    },
+    {
+     "label": "Supplier Terms Reader (io.github.Wxt-ai/supplier-terms-reader)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/supplier-terms-reader"
+    },
+    {
+     "label": "Support Case Workbench (io.github.Wxt-ai/support-case-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/support-case-workbench"
+    },
+    {
+     "label": "Support Intake Digest (io.github.Wxt-ai/support-followup-marker-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/support-followup-marker-complete"
+    },
+    {
+     "label": "Support Intake Digest (io.github.Wxt-ai/support-followup-marker-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/support-followup-marker-identifier"
+    },
+    {
+     "label": "Support Case Workbench (io.github.Wxt-ai/support-followup-marker-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/support-followup-marker-workbench"
+    },
+    {
+     "label": "Support Intake Digest (io.github.Wxt-ai/support-intake-digest)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/support-intake-digest"
+    },
+    {
+     "label": "Service Class Planner (io.github.Wxt-ai/task-priority-guidance-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/task-priority-guidance-complete"
+    },
+    {
+     "label": "Service Class Planner (io.github.Wxt-ai/task-priority-guidance-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/task-priority-guidance-identifier"
+    },
+    {
+     "label": "Operations Schedule Builder (io.github.Wxt-ai/task-priority-guidance-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/task-priority-guidance-workbench"
+    },
+    {
+     "label": "Translation Job Desk (io.github.Wxt-ai/translation-job-desk)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/translation-job-desk"
+    },
+    {
+     "label": "Localization Setting Planner (io.github.Wxt-ai/translation-job-setting-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/translation-job-setting-complete"
+    },
+    {
+     "label": "Localization Setting Planner (io.github.Wxt-ai/translation-job-setting-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/translation-job-setting-identifier"
+    },
+    {
+     "label": "Translation Job Desk (io.github.Wxt-ai/translation-job-setting-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/translation-job-setting-workbench"
+    },
+    {
+     "label": "Workspace Access Comparator (io.github.Wxt-ai/workspace-access-checklist-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-access-checklist-complete"
+    },
+    {
+     "label": "Workspace Access Comparator (io.github.Wxt-ai/workspace-access-checklist-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-access-checklist-identifier"
+    },
+    {
+     "label": "Access Review Checklist (io.github.Wxt-ai/workspace-access-checklist-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-access-checklist-workbench"
+    },
+    {
+     "label": "Workspace Access Comparator (io.github.Wxt-ai/workspace-access-comparator)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-access-comparator"
+    },
+    {
+     "label": "Knowledge Evidence Finder (io.github.Wxt-ai/workspace-activity-reference-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-activity-reference-identifier"
+    },
+    {
+     "label": "Operations Activity Ledger (io.github.Wxt-ai/workspace-activity-reference-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-activity-reference-workbench"
+    },
+    {
+     "label": "Workspace Export Writer (io.github.Wxt-ai/workspace-export-writer)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-export-writer"
+    },
+    {
+     "label": "Knowledge Placement Planner (io.github.Wxt-ai/workspace-note-path-complete)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-note-path-complete"
+    },
+    {
+     "label": "Knowledge Placement Planner (io.github.Wxt-ai/workspace-note-path-identifier)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-note-path-identifier"
+    },
+    {
+     "label": "Workspace Export Writer (io.github.Wxt-ai/workspace-note-path-workbench)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Wxt-ai/workspace-note-path-workbench"
+    },
+    {
+     "label": "ARAM Mayhem (io.github.andthezhang/arammayhem)",
+     "note": "",
+     "url": "https://github.com/andthezhang/arammayhem-mcp"
+    },
+    {
+     "label": "registrum-mcp (io.github.vdmeu/registrum-mcp)",
+     "note": "",
+     "url": "https://github.com/vdmeu/registrum-mcp"
+    },
+    {
+     "label": "mcp-brasil (io.github.viniciusmdoobm/mcp-brasil)",
+     "note": "",
+     "url": "https://github.com/viniciusmdoobm/mcp-brasil"
+    },
+    {
+     "label": "Pinto Notes (app.ambernotes/amber-notes)",
+     "note": "",
+     "url": "https://github.com/amber-notes/amber-notes"
+    },
+    {
+     "label": "Gennons (com.gennons/gennons)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.gennons/gennons"
+    },
+    {
+     "label": "Seamless (io.github.0spoon/seamless)",
+     "note": "",
+     "url": "https://github.com/0spoon/seamless"
+    },
+    {
+     "label": "intelligence (io.github.byimprint/intelligence)",
+     "note": "",
+     "url": "https://github.com/byimprint/mcp-server"
+    },
+    {
+     "label": "VULK (io.github.devjoaocastro/vulk-mcp-server)",
+     "note": "",
+     "url": "https://github.com/VULK-dev/vulk-mcp-server"
+    },
+    {
+     "label": "marrow (io.github.getmarrow/marrow)",
+     "note": "",
+     "url": "https://github.com/getmarrow/marrow-mcp"
+    },
+    {
+     "label": "ORANO MCP Server (io.github.infotik/orano-mcp-server)",
+     "note": "",
+     "url": "https://github.com/infotik/orano-mcp-server"
+    },
+    {
+     "label": "Agent Discovery Board by SarnAI (io.github.mglbagi/agent-discovery-board)",
+     "note": "",
+     "url": "https://github.com/mglbagi/agent-discovery-board-public"
+    },
+    {
+     "label": "Agent Output Verifier by Sarnai (io.github.mglbagi/agent-output-verifier)",
+     "note": "",
+     "url": "https://github.com/mglbagi/agent-output-verifier"
+    },
+    {
+     "label": "RationalBloks (io.github.rationalbloks/rationalbloks-mcp)",
+     "note": "",
+     "url": "https://github.com/rationalbloks/rationalbloks-mcp"
+    },
+    {
+     "label": "Zabbix AI CLI (io.github.stufently/zabbix-ai-cli)",
+     "note": "",
+     "url": "https://github.com/stufently/zabbix-ai-cli"
+    }
+   ],
+   "kind": "mcp_retired",
+   "lane": "mcp",
+   "org": null,
+   "score": 14.3,
+   "title": "246 MCP servers removed or deprecated"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "DeepSeek: DeepSeek V4.1 Flash",
+     "note": "1048K ctx · $0.3/$1.2 per M tokens",
+     "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "deepseek",
+   "score": 14.0,
+   "title": "DeepSeek: DeepSeek V4.1 Flash: input price raised 743% ($0.0356 → $0.3 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Meta: Llama 3.3 70B Instruct",
+     "note": "131K ctx · $0.22/$0.5 per M tokens",
+     "url": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "meta-llama",
+   "score": 14.0,
+   "title": "Meta: Llama 3.3 70B Instruct: input price raised 120% ($0.1 → $0.22 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Qwen: Qwen3 30B A3B Instruct 2507",
+     "note": "262K ctx · $0.1/$0.3 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3-30b-a3b-instruct-2507"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "qwen",
+   "score": 14.0,
+   "title": "Qwen: Qwen3 30B A3B Instruct 2507: input price raised 108% ($0.0481 → $0.1 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Z.ai: GLM 5.2",
+     "note": "1048K ctx · $0.06/$4.2 per M tokens",
+     "url": "https://openrouter.ai/z-ai/glm-5.2"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "z-ai",
+   "score": 14.0,
+   "title": "Z.ai: GLM 5.2: input price raised 100% ($0.03 → $0.06 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "60.0M downloads last week",
+   "items": [
+    {
+     "label": "huggingface-hub 2.2.0",
+     "note": "",
+     "url": "https://pypi.org/project/huggingface-hub/"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "huggingface-hub",
+   "score": 13.8,
+   "title": "huggingface-hub 2.1.1 → 2.2.0 (minor release, pypi)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "21.2M downloads last week",
+   "items": [
+    {
+     "label": "@openai/codex 0.162.0",
+     "note": "",
+     "url": "https://www.npmjs.com/package/@openai/codex"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "openai",
+   "score": 13.78,
+   "title": "@openai/codex 0.161.0 → 0.162.0 (major-ish release, npm)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "42.6M downloads last week",
+   "items": [
+    {
+     "label": "openai 7.31.0",
+     "note": "",
+     "url": "https://www.npmjs.com/package/openai"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "openai",
+   "score": 13.08,
+   "title": "openai 7.30.1 → 7.31.0 (minor release, npm)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Increased Dubbing Latency and Failure Rate",
+     "note": "",
+     "url": "https://status.elevenlabs.io"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "elevenlabs",
+   "score": 12,
+   "title": "ElevenLabs: Increased Dubbing Latency and Failure Rate (major impact, 361 min)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "14.3M downloads last week",
+   "items": [
+    {
+     "label": "fastmcp 4.1.0",
+     "note": "",
+     "url": "https://pypi.org/project/fastmcp/"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "fastmcp",
+   "score": 11.15,
+   "title": "fastmcp 4.0.11 → 4.1.0 (minor release, pypi)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "2.1M downloads last week",
+   "items": [
+    {
+     "label": "@openai/agents 0.20.0",
+     "note": "",
+     "url": "https://www.npmjs.com/package/@openai/agents"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "openai",
+   "score": 10.82,
+   "title": "@openai/agents 0.19.0 → 0.20.0 (major-ish release, npm)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Z.ai: GLM 5.2",
+     "note": "1048K ctx · $0.06/$4.2 per M tokens",
+     "url": "https://openrouter.ai/z-ai/glm-5.2"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "z-ai",
+   "score": 10.8,
+   "title": "Z.ai: GLM 5.2: output price cut 58% ($10 → $4.2 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Meta: Llama 3.3 70B Instruct",
+     "note": "131K ctx · $0.22/$0.5 per M tokens",
+     "url": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "meta-llama",
+   "score": 10.62,
+   "title": "Meta: Llama 3.3 70B Instruct: output price raised 56% ($0.32 → $0.5 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [],
+   "kind": "surge",
+   "lane": "teams",
+   "org": "harvey",
+   "score": 10.58,
+   "title": "Harvey opened 79 roles in 14 days (33% of its open book), mostly Sales and Engineering"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Qwen: Qwen3 30B A3B Instruct 2507",
+     "note": "262K ctx · $0.1/$0.3 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3-30b-a3b-instruct-2507"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "qwen",
+   "score": 10.54,
+   "title": "Qwen: Qwen3 30B A3B Instruct 2507: output price raised 55% ($0.193 → $0.3 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Mistral: Mistral Nemo",
+     "note": "131K ctx · $0.029/$0.03 per M tokens",
+     "url": "https://openrouter.ai/mistralai/mistral-nemo"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "mistralai",
+   "score": 10.26,
+   "title": "Mistral: Mistral Nemo: input price raised 53% ($0.019 → $0.029 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [],
+   "kind": "surge",
+   "lane": "teams",
+   "org": "elevenlabs",
+   "score": 9.93,
+   "title": "ElevenLabs opened 60 roles in 14 days (41% of its open book), mostly Sales and Engineering"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Qwen: Qwen3.5-35B-A3B",
+     "note": "262K ctx · $0.08/$0.75 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3.5-35b-a3b"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "qwen",
+   "score": 9.67,
+   "title": "Qwen: Qwen3.5-35B-A3B: input price cut 47% ($0.15 → $0.08 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "3.3M downloads last week",
+   "items": [
+    {
+     "label": "mistralai 3.2.0",
+     "note": "",
+     "url": "https://pypi.org/project/mistralai/"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "mistralai",
+   "score": 9.25,
+   "title": "mistralai 3.1.0 → 3.2.0 (minor release, pypi)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "DeepSeek: DeepSeek V4 Flash 0731",
+     "note": "1048K ctx · $0.0104/$1.28 per M tokens",
+     "url": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "deepseek",
+   "score": 9.22,
+   "title": "DeepSeek: DeepSeek V4 Flash 0731: input price cut 42% ($0.018 → $0.0104 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [],
+   "kind": "reliability_week",
+   "lane": "reliability",
+   "org": "github",
+   "score": 9,
+   "title": "GitHub had 5 incidents in 7 days (5 major, 11h 1m total)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Deployment Strategist - Sweden; Enterprise Solutions Engineer - Canada; Forward Deployed Engineer - Software Engineer - United Kingdom",
+   "items": [],
+   "kind": "theme_push",
+   "lane": "teams",
+   "org": "elevenlabs",
+   "score": 8.43,
+   "title": "ElevenLabs is leaning into forward-deployed: 22% of new roles vs 8% before"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Agent SIP Conversation Disruption",
+     "note": "",
+     "url": "https://status.elevenlabs.io"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "elevenlabs",
+   "score": 8.4,
+   "title": "ElevenLabs: Agent SIP Conversation Disruption (major impact, 24 min)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Qwen: Qwen3 Next 80B A3B Instruct",
+     "note": "262K ctx · $0.1/$1.1 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "qwen",
+   "score": 8.33,
+   "title": "Qwen: Qwen3 Next 80B A3B Instruct: input price cut 33% ($0.15 → $0.1 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "OpenAI: GPT-6.1 Sol Pro (batch) (1050K ctx · $1/$5 per M tokens); OpenAI: GPT-6.1 Sol (batch) (1050K ctx · $1/$5 per M tokens)",
+   "items": [
+    {
+     "label": "OpenAI: GPT-6.1 Sol Pro (batch)",
+     "note": "1050K ctx · $1/$5 per M tokens",
+     "url": "https://openrouter.ai/openai/gpt-6.1-sol-pro:batch"
+    },
+    {
+     "label": "OpenAI: GPT-6.1 Sol (batch)",
+     "note": "1050K ctx · $1/$5 per M tokens",
+     "url": "https://openrouter.ai/openai/gpt-6.1-sol:batch"
+    }
+   ],
+   "kind": "new_models",
+   "lane": "models",
+   "org": "openai",
+   "score": 8,
+   "title": "OpenAI listed 2 new models today"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "541K downloads last week",
+   "items": [
+    {
+     "label": "trl 1.15.0",
+     "note": "",
+     "url": "https://pypi.org/project/trl/"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "trl",
+   "score": 7.71,
+   "title": "trl 1.14.2 → 1.15.0 (minor release, pypi)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Qwen: Qwen3 Next 80B A3B Instruct",
+     "note": "262K ctx · $0.1/$1.1 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "qwen",
+   "score": 7.67,
+   "title": "Qwen: Qwen3 Next 80B A3B Instruct: output price cut 27% ($1.5 → $1.1 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Qwen: Qwen3.5-35B-A3B",
+     "note": "262K ctx · $0.08/$0.75 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3.5-35b-a3b"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "qwen",
+   "score": 7.5,
+   "title": "Qwen: Qwen3.5-35B-A3B: output price cut 25% ($1 → $0.75 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "DeepSeek: DeepSeek V3",
+     "note": "163K ctx · $0.32/$0.89 per M tokens",
+     "url": "https://openrouter.ai/deepseek/deepseek-chat"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "deepseek",
+   "score": 7.43,
+   "title": "DeepSeek: DeepSeek V3: input price raised 24% ($0.2574 → $0.32 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "310 hosted, 101 local packages, 14 both; 253 from domain-verified publishers.",
+   "items": [],
+   "kind": "mcp_volume",
+   "lane": "mcp",
+   "org": null,
+   "score": 7.26,
+   "title": "426 new MCP servers today"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Qwen: Qwen3.5 397B A17B",
+     "note": "262K ctx · $0.55/$3.5 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3.5-397b-a17b"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "qwen",
+   "score": 7.22,
+   "title": "Qwen: Qwen3.5 397B A17B: input price raised 22% ($0.45 → $0.55 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "DeepSeek: DeepSeek V4.1 Flash",
+     "note": "1048K ctx · $0.3/$1.2 per M tokens",
+     "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "deepseek",
+   "score": 7.0,
+   "title": "DeepSeek: DeepSeek V4.1 Flash: output price raised 20% ($1 → $1.2 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "io.usefulapi (21), com.zennolab (8), com.crowfoundry (6), de.sofortfax (3), com.flo-voice1 (2), com.sendfaxfast (2), de.tripfix (2), ai.0si (1). Bulk publishers (10+ servers): io.usefulapi.",
+   "items": [
+    {
+     "label": "io.usefulapi: Airbrake MCP by usefulapi, ChurchSuite MCP by usefulapi, Cin7 Core MCP by usefulapi",
+     "note": "21 servers",
+     "url": "https://github.com/m190/usefulapi-mcp"
+    },
+    {
+     "label": "com.zennolab: ZennoDroid: device in ProjectMaker, ZennoDroid: devices of running tasks, ZennoPoster: browser in ProjectMaker",
+     "note": "8 servers",
+     "url": "https://github.com/ZennoLab/zennoposter-mcp"
+    },
+    {
+     "label": "com.crowfoundry: Crowdoc, DownWash, G86 Racing",
+     "note": "6 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.crowfoundry/crowdoc"
+    },
+    {
+     "label": "de.sofortfax: SofortFax – Faxen mit KI, SofortFax (KI-Fax-Credits), SofortFax – Faxen mit KI (Login)",
+     "note": "3 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.sofortfax/fax"
+    },
+    {
+     "label": "com.flo-voice1: acp-sandbox, agent-identity-mcp",
+     "note": "2 servers",
+     "url": "https://github.com/flovoice53-tech/acp-sandbox"
+    },
+    {
+     "label": "com.sendfaxfast: SendFaxFast, SendFaxFast (AI Fax Credits)",
+     "note": "2 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.sendfaxfast/fax"
+    },
+    {
+     "label": "de.tripfix: tripfix Reisekosten-Pauschalen, tripfix Reisekostenabrechnung",
+     "note": "2 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.tripfix/pauschalen"
+    },
+    {
+     "label": "ai.0si: 0si.ai Disclosures",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.0si/disclosures"
+    },
+    {
+     "label": "ai.agentui: AgentUI Apps",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentui/apps"
+    },
+    {
+     "label": "ai.aivikings: AiVikings.ai",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.aivikings/registrar"
+    },
+    {
+     "label": "ai.anywhereintelligence: Switchboard",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.anywhereintelligence/switchboard"
+    },
+    {
+     "label": "ai.autron: Autron",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.autron/autron"
+    },
+    {
+     "label": "ai.boardmark: BoardMark",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.boardmark/boardmark"
+    },
+    {
+     "label": "ai.catchmycall: CatchMyCall",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.catchmycall/cpaas"
+    },
+    {
+     "label": "ai.cleve: Cleve",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.cleve/cleve"
+    },
+    {
+     "label": "ai.cloudxray: CloudXray AI FinOps Directory",
+     "note": "1 server",
+     "url": "https://github.com/cloudxrayai/cloudxray-ai"
+    },
+    {
+     "label": "ai.cocuyo: Cocuyo",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.cocuyo/cocuyo"
+    },
+    {
+     "label": "ai.getboomerang: Boomerang",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.getboomerang/boomerang"
+    },
+    {
+     "label": "ai.getmarrow: Marrow AI: Control Layer for AI Agents",
+     "note": "1 server",
+     "url": "https://github.com/getmarrow/marrow-mcp"
+    },
+    {
+     "label": "ai.goldbeater: Goldbeater",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.goldbeater/goldbeater"
+    },
+    {
+     "label": "ai.immokit: immokit.ai — Auskunft zu Grundstück und Immobilie",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.immokit/mcp"
+    },
+    {
+     "label": "ai.markethq: MarketHQ",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.markethq/mcp"
+    },
+    {
+     "label": "ai.memozzang: 메모짱",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.memozzang/memozzang"
+    },
+    {
+     "label": "ai.monolithos: Monolithos",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.monolithos/cloud-memory"
+    },
+    {
+     "label": "ai.nyayassist: NyayAssist",
+     "note": "1 server",
+     "url": "https://github.com/NyayAssist/nyayassist-mcp"
+    },
+    {
+     "label": "ai.onsomble: Onsomble",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.onsomble/onsomble"
+    },
+    {
+     "label": "ai.qureview: Qu Review",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.qureview/review"
+    },
+    {
+     "label": "ai.sfomo: SFomo: Bay Area events",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.sfomo/events"
+    },
+    {
+     "label": "ai.subpay: Agent Tool Finder",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.subpay/tool-finder"
+    },
+    {
+     "label": "ai.sydera: artemis",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.sydera/artemis"
+    },
+    {
+     "label": "ai.varg: varg.ai",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.varg/mcp"
+    },
+    {
+     "label": "ai.vendwiser: Vendwiser",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.vendwiser/vendwiser"
+    },
+    {
+     "label": "ai.xcut: XCut AI – Viral Content Research",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.xcut/xcutai"
+    },
+    {
+     "label": "ai.zaptu: Zaptu",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.zaptu/zaptu"
+    },
+    {
+     "label": "app.longbook: longbook",
+     "note": "1 server",
+     "url": "https://github.com/MXmaster2s/longbook-code"
+    },
+    {
+     "label": "app.mizam: discovery",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.mizam/discovery"
+    },
+    {
+     "label": "app.namehound: NameHound",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.namehound/namehound"
+    },
+    {
+     "label": "app.railway.up.payments-intel-production: Stablecoin rails, corridors and payment provider data",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.railway.up.payments-intel-production/payments-intel"
+    },
+    {
+     "label": "app.rankbrain: RankBrain AI",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.rankbrain/rankbrain-ai"
+    },
+    {
+     "label": "app.shelfclub: Shelfclub",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.shelfclub/books"
+    },
+    {
+     "label": "app.wellintel: Well-Intel Drilling Permits",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.wellintel/permits"
+    },
+    {
+     "label": "au.com.nationaldigital: National Digital",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=au.com.nationaldigital/website"
+    },
+    {
+     "label": "blog.draftly: Draftly SEO",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=blog.draftly/seo"
+    },
+    {
+     "label": "blue.idun: Idun Blue",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=blue.idun/idun-blue"
+    },
+    {
+     "label": "bot.cornelius: Cornelius",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=bot.cornelius/cornelius"
+    },
+    {
+     "label": "br.com.scrypta: guapissimas",
+     "note": "1 server",
+     "url": "https://github.com/scrypta-mcp/scrypta-mcp"
+    },
+    {
+     "label": "ca.arrowmem: arrowmem-mcp",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ca.arrowmem/arrowmem-mcp"
+    },
+    {
+     "label": "cards.wabisabi: wabisabi.cards",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=cards.wabisabi/mcp"
+    },
+    {
+     "label": "cc.adm: ADM Google Ads",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=cc.adm/google-ads"
+    },
+    {
+     "label": "cc.scopeai: ScopeAI GEO Observation",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=cc.scopeai/geo-observation"
+    },
+    {
+     "label": "co.ordergroup: Order Group",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=co.ordergroup/public"
+    },
+    {
+     "label": "co.rocketreach: RocketReach",
+     "note": "1 server",
+     "url": "https://github.com/rocketreach/rocketreach-mcp-plugin"
+    },
+    {
+     "label": "co.shipfound: Shipfound",
+     "note": "1 server",
+     "url": "https://github.com/shipfound/shipfound"
+    },
+    {
+     "label": "co.supp: SuppCo",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=co.supp/suppco"
+    },
+    {
+     "label": "codes.qrx: QRX",
+     "note": "1 server",
+     "url": "https://github.com/qrxcodes/qrx-mcp"
+    },
+    {
+     "label": "com.abuzzhive: AbuzzHive",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.abuzzhive/abuzzhive"
+    },
+    {
+     "label": "com.actuallyasked: Actually Asked",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.actuallyasked/mcp"
+    },
+    {
+     "label": "com.allmymeetings: AllMyMeetings",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.allmymeetings/calendar"
+    },
+    {
+     "label": "com.arcticrex: Veloci by ArcticRex",
+     "note": "1 server",
+     "url": "https://github.com/ArcticRexOrg/veloci-plugins"
+    },
+    {
+     "label": "com.astranexo.wabot: WaBot",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.astranexo.wabot/mcp"
+    },
+    {
+     "label": "com.aurmada.rooms: Rooms by Aurmada",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.aurmada.rooms/rooms"
+    },
+    {
+     "label": "com.breakreach: Breakreach",
+     "note": "1 server",
+     "url": "https://github.com/Breakreach/breakreach"
+    },
+    {
+     "label": "com.compsapi: ebay-sold-listings",
+     "note": "1 server",
+     "url": "https://github.com/dominic-a11y/compsapi-mcp"
+    },
+    {
+     "label": "com.covdbg: covdbg",
+     "note": "1 server",
+     "url": "https://github.com/liasoft/covdbg-mcp"
+    },
+    {
+     "label": "com.crow-nest: Crow Nest",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.crow-nest/mcp"
+    },
+    {
+     "label": "com.cspriceapi: CSPriceAPI – CS2 skin prices",
+     "note": "1 server",
+     "url": "https://github.com/cspriceapi/cspriceapi-mcp"
+    },
+    {
+     "label": "com.cutluma: CutLuma video editor",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.cutluma/video-editor"
+    },
+    {
+     "label": "com.cyclonemachining.for: Cyclone Machining Co. agent door",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.cyclonemachining.for/agent-door"
+    },
+    {
+     "label": "com.datakoot: Koot by Datakoot",
+     "note": "1 server",
+     "url": "https://github.com/datakoot/koot-mcp"
+    },
+    {
+     "label": "com.dataville: Dataville",
+     "note": "1 server",
+     "url": "https://github.com/datavilleorg/dataville-mcp"
+    },
+    {
+     "label": "com.eccaai: ECCA",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.eccaai/ecca"
+    },
+    {
+     "label": "com.emaillistvalidation: Email List Validation Email Verification",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.emaillistvalidation/email-verification"
+    },
+    {
+     "label": "com.enhancedint: Book ShesMyDogLady",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.enhancedint/shesmydoglady"
+    },
+    {
+     "label": "com.eushipmentprep.www: EUShipmentPrep",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.eushipmentprep.www/eushipmentprep"
+    },
+    {
+     "label": "com.evmux: evmux",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.evmux/evmux"
+    },
+    {
+     "label": "com.ex2: Ex2 catalogue",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ex2/catalogue"
+    },
+    {
+     "label": "com.experiencebamfield: Experience Bamfield",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.experiencebamfield/experience-bamfield"
+    },
+    {
+     "label": "com.fetchpan: FetchPan",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.fetchpan/fetchpan"
+    },
+    {
+     "label": "com.fluotest: FluoTest",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.fluotest/mcp"
+    },
+    {
+     "label": "com.foundforai: Goldsberry Orthodontics",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.foundforai/goldsberry-orthodontics"
+    },
+    {
+     "label": "com.frameanyphoto: FrameAnyPhoto",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.frameanyphoto/prints"
+    },
+    {
+     "label": "com.frontlatch: Frontlatch",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.frontlatch/gateway"
+    },
+    {
+     "label": "com.fusehealth: FUSE Health",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.fusehealth/mcp"
+    },
+    {
+     "label": "com.haulest: Haulest",
+     "note": "1 server",
+     "url": "https://github.com/Panaweb-LLC/haulest-mcp"
+    },
+    {
+     "label": "com.helvedrive: Helvedrive",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.helvedrive/drive"
+    },
+    {
+     "label": "com.hootlens: Hoot Lens",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.hootlens/mcp"
+    },
+    {
+     "label": "com.iberaexperience: Iberá Experience",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.iberaexperience/ibera-experience"
+    },
+    {
+     "label": "com.ifreework: iFreeWork — public content",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ifreework/content"
+    },
+    {
+     "label": "com.imgvx: ImgVX AI",
+     "note": "1 server",
+     "url": "https://github.com/ismailgalaxys25-del/imgvx-ai-mcp"
+    },
+    {
+     "label": "com.intentdocs: IntentDocs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.intentdocs/intentdocs"
+    },
+    {
+     "label": "com.ipmusk: IPMusk",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ipmusk/mcp"
+    },
+    {
+     "label": "com.jev-agent: Jagent",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.jev-agent/jagent"
+    },
+    {
+     "label": "com.jotbus: Jotbus",
+     "note": "1 server",
+     "url": "https://github.com/Launchable-AI-Inc/jotbus"
+    },
+    {
+     "label": "com.knowchelsea: KnowChelsea",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.knowchelsea/places"
+    },
+    {
+     "label": "com.knowfulham: KnowFulham",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.knowfulham/places"
+    },
+    {
+     "label": "com.knownottinghill: KnowNottingHill",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.knownottinghill/places"
+    },
+    {
+     "label": "com.leadsfreshdb: Leads Fresh DB",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.leadsfreshdb/leads-fresh-db"
+    },
+    {
+     "label": "com.lettrove: Lettrove",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.lettrove/lettrove"
+    },
+    {
+     "label": "com.liqwall: Liqwall market data",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.liqwall/market-data"
+    },
+    {
+     "label": "com.lokerdollar: Loker Dollar Jobs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.lokerdollar/jobs"
+    },
+    {
+     "label": "com.lootcodes: LootCodes",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.lootcodes/catalog"
+    },
+    {
+     "label": "com.mailtester: MailTester Email Verification",
+     "note": "1 server",
+     "url": "https://github.com/mailtester-com/mailtester-mcp"
+    },
+    {
+     "label": "com.masshomecomfort: Mass Home Comfort",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.masshomecomfort/contractors"
+    },
+    {
+     "label": "com.measuredsize: Measured Size",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.measuredsize/fit"
+    },
+    {
+     "label": "com.mirabelloconsultancy: mcp",
+     "note": "1 server",
+     "url": "https://github.com/mirabello-consultancy/mcp-server"
+    },
+    {
+     "label": "com.mtgtechnical: Evidence Board",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.mtgtechnical/evidence-board"
+    },
+    {
+     "label": "com.normapi: NormAPI",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.normapi/mcp"
+    },
+    {
+     "label": "com.okfindex: okfindex",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.okfindex/okfindex"
+    },
+    {
+     "label": "com.opnplatform: PackIndex",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.opnplatform/packindex"
+    },
+    {
+     "label": "com.oxvo: OXVO Insights",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.oxvo/insights"
+    },
+    {
+     "label": "com.packagemaze: PackageMaze",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.packagemaze/packagemaze"
+    },
+    {
+     "label": "com.pintonotes: Pinto Notes",
+     "note": "1 server",
+     "url": "https://github.com/amber-notes/amber-notes"
+    },
+    {
+     "label": "com.plainrecords: PlainRecords: U.S. recalls in plain English",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.plainrecords/us-recalls-food-products-vehicles"
+    },
+    {
+     "label": "com.plsintro: plsintro",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.plsintro/plsintro"
+    },
+    {
+     "label": "com.pogobud: PoGoBud",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.pogobud/pogobud"
+    },
+    {
+     "label": "com.pricklymails: PricklyMails",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.pricklymails/email-verification"
+    },
+    {
+     "label": "com.priomate: Priomate",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.priomate/priomate"
+    },
+    {
+     "label": "com.productbyte: ProductByte",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.productbyte/productbyte"
+    },
+    {
+     "label": "com.propfirmdiscount: Prop Firm Discount MCP",
+     "note": "1 server",
+     "url": "https://github.com/propfirmdiscounts/prop-firm-discount-codes"
+    },
+    {
+     "label": "com.provenpaid: ProvenPaid",
+     "note": "1 server",
+     "url": "https://github.com/justinsmithphd/provenpaid-mcp"
+    },
+    {
+     "label": "com.publicwww: PublicWWW",
+     "note": "1 server",
+     "url": "https://github.com/publicwww-com/publicwww-mcp"
+    },
+    {
+     "label": "com.redthreadsec: Redthread",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.redthreadsec/redthread"
+    },
+    {
+     "label": "com.relomote: Relomote",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.relomote/jobs"
+    },
+    {
+     "label": "com.rentalcal: RentalCal",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.rentalcal/rentalcal"
+    },
+    {
+     "label": "com.repeatpost: RepeatPost",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.repeatpost/mcp"
+    },
+    {
+     "label": "com.rivendeploy: mcp-server",
+     "note": "1 server",
+     "url": "https://github.com/riven-deploy/sythin"
+    },
+    {
+     "label": "com.saturnsql: SaturnSQL",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.saturnsql/saturnsql"
+    },
+    {
+     "label": "com.scribetools: ScribeTools",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.scribetools/scribetools"
+    },
+    {
+     "label": "com.secureputcalls: SecurePutCalls",
+     "note": "1 server",
+     "url": "https://github.com/rohitguptamrt/secureputcalls-mcp"
+    },
+    {
+     "label": "com.siliconalmanac: Silicon Almanac",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.siliconalmanac/record"
+    },
+    {
+     "label": "com.supermailos: SuperMailOS",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.supermailos/mail"
+    },
+    {
+     "label": "com.takibibase: Takibi Base",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.takibibase/takibi"
+    },
+    {
+     "label": "com.texashomebills: TexasHomeBills — Texas electricity plans",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.texashomebills/texas-electricity"
+    },
+    {
+     "label": "com.ticexplorer: TiC Explorer",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ticexplorer/mcp"
+    },
+    {
+     "label": "com.tradealmanac: TradeAlmanac",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tradealmanac/mcp-server"
+    },
+    {
+     "label": "com.transcriptdock: mcp",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.transcriptdock/mcp"
+    },
+    {
+     "label": "com.travelriskapi: Travel Risk API",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.travelriskapi/travel-risk-api"
+    },
+    {
+     "label": "com.trycloudflare.favor-skilled-ben-plugin: ProofFetch Lite (proof_fetch, read_clean, url_watch)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.trycloudflare.favor-skilled-ben-plugin/prooffetch"
+    },
+    {
+     "label": "com.useclientproof: ClientProof",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.useclientproof/clientproof"
+    },
+    {
+     "label": "com.vestd: Vestd",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.vestd/mcp"
+    },
+    {
+     "label": "com.weavori: mcp",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.weavori/mcp"
+    },
+    {
+     "label": "com.westernskyhvac.www: Western Sky Heating and Cooling (Montana)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.westernskyhvac.www/booking"
+    },
+    {
+     "label": "com.westernskyindiana: Western Sky Heating, Cooling & Plumbing (Indiana)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.westernskyindiana/booking"
+    },
+    {
+     "label": "com.whobuildsit: whobuildsit — space & defence hardware suppliers",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.whobuildsit/catalog"
+    },
+    {
+     "label": "com.yuletidemarkets: Yuletide Markets",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.yuletidemarkets/yuletide-markets"
+    },
+    {
+     "label": "de.anwaltx: AnwaltX Passenger Rights & Legal Info (Germany/EU)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.anwaltx/fahrgastrechte"
+    },
+    {
+     "label": "de.arbitragex: Arbitragex Amazon FBA Calculator (Amazon.de)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.arbitragex/fba-rechner"
+    },
+    {
+     "label": "de.blitzbuchen: Blitzbuchen Reiseplaner",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.blitzbuchen/reiseplaner"
+    },
+    {
+     "label": "de.gruenderx: GründerX Founder Events, Deadlines & Startup Credits (Germany)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.gruenderx/gruender-tools"
+    },
+    {
+     "label": "de.oqda: oqda Business-OS",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.oqda/oqda"
+    },
+    {
+     "label": "dev.adsgpt: AdsGPT",
+     "note": "1 server",
+     "url": "https://github.com/wortise/agent-plugins"
+    },
+    {
+     "label": "dev.datacircle: Datacircle",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.datacircle/datacircle"
+    },
+    {
+     "label": "dev.laterbase: Laterbase",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.laterbase/laterbase"
+    },
+    {
+     "label": "dev.reconstruct: Reconstruct",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.reconstruct/reconstruct"
+    },
+    {
+     "label": "dev.sarnai: Agent Output Verifier by SarnAI",
+     "note": "1 server",
+     "url": "https://github.com/sarnai-dev/agent-output-verifier"
+    },
+    {
+     "label": "dev.workers.caoviedoc.agent-economic-passport: Agent Economic Trust",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.caoviedoc.agent-economic-passport/agent-economic-trust"
+    },
+    {
+     "label": "dev.workers.cybermax-tools.cybermax: Figurewell",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.cybermax-tools.cybermax/figurewell-api"
+    },
+    {
+     "label": "dev.workers.mike-tusa.certguard: CertGuard",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.mike-tusa.certguard/certguard"
+    },
+    {
+     "label": "dev.workers.mike-tusa.dnsguard: DnsGuard",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.mike-tusa.dnsguard/dnsguard"
+    },
+    {
+     "label": "dev.workers.mike-tusa.headerguard: HeaderGuard",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.mike-tusa.headerguard/headerguard"
+    },
+    {
+     "label": "dev.workers.mike-tusa.uaparse: UAParse",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.mike-tusa.uaparse/uaparse"
+    },
+    {
+     "label": "dev.workers.neoaethel.carrier-ledger: Carrier Ledger",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.neoaethel.carrier-ledger/carrier-ledger"
+    },
+    {
+     "label": "dev.x402shield: x402Shield",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.x402shield/x402shield"
+    },
+    {
+     "label": "eu.financialreports: FinancialFilings",
+     "note": "1 server",
+     "url": "https://github.com/financial-reports/financial-reports-mcp-server"
+    },
+    {
+     "label": "eu.runlocal.gpu0a49b9444d66-s-org: GPU Cloud Prices (AWS, Azure, OCI)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=eu.runlocal.gpu0a49b9444d66-s-org/gpu-prices"
+    },
+    {
+     "label": "eu.runlocal.wise-shrimp: GPU Cloud Prices (AWS, Azure, OCI)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=eu.runlocal.wise-shrimp/gpu-prices"
+    },
+    {
+     "label": "exchange.sidequest: Sidequest",
+     "note": "1 server",
+     "url": "https://github.com/grmkris/sidequest"
+    },
+    {
+     "label": "food.alma: Alma",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=food.alma/mcp"
+    },
+    {
+     "label": "fun.aeon: Aeon",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fun.aeon/aeon"
+    },
+    {
+     "label": "fun.modcard: ModCard",
+     "note": "1 server",
+     "url": "https://github.com/mudberry/modcard-mcp-setup"
+    },
+    {
+     "label": "fyi.selah: Selah: Brand Deal Rates",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fyi.selah/rates"
+    },
+    {
+     "label": "gg.arcanecore: Arcane Core",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=gg.arcanecore/arcane-core"
+    },
+    {
+     "label": "host.pagelet: Pagelet",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=host.pagelet/pagelet"
+    },
+    {
+     "label": "in.fincept: Fincept",
+     "note": "1 server",
+     "url": "https://github.com/Fincept-Corporation/fincept-mcp-docs"
+    },
+    {
+     "label": "io.arcai: arcai",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.arcai/arcai"
+    },
+    {
+     "label": "io.beamline: Beamline",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.beamline/beamline"
+    },
+    {
+     "label": "io.calcupedia: Calcupedia",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.calcupedia/calcupedia"
+    },
+    {
+     "label": "io.emaillistchecker: Emaillistchecker.io Email Verification",
+     "note": "1 server",
+     "url": "https://github.com/Emaillistchecker-io/emaillistchecker-mcp"
+    },
+    {
+     "label": "io.foundplay: Foundplay",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.foundplay/foundplay"
+    },
+    {
+     "label": "io.neume: Neume",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.neume/neume"
+    },
+    {
+     "label": "io.noetive: Riffle",
+     "note": "1 server",
+     "url": "https://github.com/noetive/riffle"
+    },
+    {
+     "label": "io.notworking: NotWorking",
+     "note": "1 server",
+     "url": "https://github.com/RyanNSJ/notworking"
+    },
+    {
+     "label": "io.satelo: Satelo",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.satelo/satelo"
+    },
+    {
+     "label": "io.talkfirst: Talkfirst",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.talkfirst/talkfirst"
+    },
+    {
+     "label": "io.tokenease: gateway",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.tokenease/gateway"
+    },
+    {
+     "label": "io.vibedoctor: VibeDoctor",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.vibedoctor/vibedoctor"
+    },
+    {
+     "label": "io.voidjet: voidjet empty legs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.voidjet/empty-legs"
+    },
+    {
+     "label": "io.yalladeals: YallaDeals: UAE price comparison",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.yalladeals/deals"
+    },
+    {
+     "label": "is.tafla: Tafla",
+     "note": "1 server",
+     "url": "https://github.com/hoddmachine/tafla-plugin"
+    },
+    {
+     "label": "jp.ltng: MustDo",
+     "note": "1 server",
+     "url": "https://github.com/lightning-llc-jpn/mustdo-mcp"
+    },
+    {
+     "label": "kr.co.klisten.api: Klisten ToolGuard",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=kr.co.klisten.api/toolguard"
+    },
+    {
+     "label": "link.policypal: Policy Pal",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=link.policypal/policypal"
+    },
+    {
+     "label": "live.tarenraider: Taren Raider",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=live.tarenraider/taren-raider"
+    },
+    {
+     "label": "me.manifestme: Manifest",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=me.manifestme/inventory"
+    },
+    {
+     "label": "me.manylives: ManyLives paid tools",
+     "note": "1 server",
+     "url": "https://github.com/manylives-me/agent-kit"
+    },
+    {
+     "label": "me.taskdeck: TaskDeck",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=me.taskdeck/taskdeck"
+    },
+    {
+     "label": "net.datosia: DatosIA — Central America data",
+     "note": "1 server",
+     "url": "https://github.com/hapitech/datosia-mcp"
+    },
+    {
+     "label": "net.pdf: pdf.net",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=net.pdf/pdf-net-mcp"
+    },
+    {
+     "label": "net.tradebasis: TradeBasis US Market Appraisal",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=net.tradebasis/market-appraisal"
+    },
+    {
+     "label": "nl.konnekta: Konnekta",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=nl.konnekta/boekhouding"
+    },
+    {
+     "label": "online.aiplumber: GTA AI Plumber",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=online.aiplumber/gta-plumber"
+    },
+    {
+     "label": "org.davisstirling: DavisStirling",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=org.davisstirling/davisstirling"
+    },
+    {
+     "label": "org.lettras: Lettras word search",
+     "note": "1 server",
+     "url": "https://github.com/Artificialss/lettras-sdk"
+    },
+    {
+     "label": "page.rows: rows.page",
+     "note": "1 server",
+     "url": "https://github.com/bitgate/rows-page-mcp"
+    },
+    {
+     "label": "site.measuremy: measuremy.site",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=site.measuremy/analytics"
+    },
+    {
+     "label": "space.cobrain: Cobrain",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=space.cobrain/cobrain"
+    },
+    {
+     "label": "tickets.xp: XP Tickets",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=tickets.xp/xp-tickets"
+    },
+    {
+     "label": "tools.handover: handover.tools",
+     "note": "1 server",
+     "url": "https://github.com/gammaland/handover"
+    },
+    {
+     "label": "tools.superpowers: Superpowers",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=tools.superpowers/superpowers"
+    },
+    {
+     "label": "tr.com.metasearch: metasearch MCP",
+     "note": "1 server",
+     "url": "https://github.com/metasearchcomtr/metasearch-mcp"
+    },
+    {
+     "label": "trading.ludus: Ludus",
+     "note": "1 server",
+     "url": "https://github.com/curatedapp/ludus-mcp"
+    },
+    {
+     "label": "uk.co.cruisify: Cruisify",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=uk.co.cruisify/cruise-search"
+    },
+    {
+     "label": "uk.co.hotelmonitor: HotelMonitor hotel prices",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=uk.co.hotelmonitor/hotel-prices"
+    },
+    {
+     "label": "uk.co.tommyaccounting: Tommy Accounting",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=uk.co.tommyaccounting/tools"
+    },
+    {
+     "label": "vn.hodl: HODL.VN — Vietnam market data",
+     "note": "1 server",
+     "url": "https://github.com/tohaitrieu/hodl-market-insight"
+    },
+    {
+     "label": "xyz.astroclaw: Astroclaw",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=xyz.astroclaw/astroclaw"
+    }
+   ],
+   "kind": "verified_publishers",
+   "lane": "mcp",
+   "org": null,
+   "score": 7.0,
+   "title": "216 domain-verified publishers shipped MCP servers today"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "145K downloads last week",
+   "items": [
+    {
+     "label": "arize-phoenix 20.20.0",
+     "note": "",
+     "url": "https://pypi.org/project/arize-phoenix/"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "arize-phoenix",
+   "score": 6.95,
+   "title": "arize-phoenix 20.19.0 → 20.20.0 (minor release, pypi)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "MoonshotAI: Kimi K3",
+     "note": "1048K ctx · $0.5/$12 per M tokens",
+     "url": "https://openrouter.ai/moonshotai/kimi-k3"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "moonshotai",
+   "score": 6.94,
+   "title": "MoonshotAI: Kimi K3: input price cut 19% ($0.62 → $0.5 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Z.ai: GLM 5.3",
+     "note": "1048K ctx · $0.04/$3.6 per M tokens",
+     "url": "https://openrouter.ai/z-ai/glm-5.3"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "z-ai",
+   "score": 6.84,
+   "title": "Z.ai: GLM 5.3: input price cut 18% ($0.049 → $0.04 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Service Degradation for GLM 5.3 Flash",
+     "note": "",
+     "url": "https://status.fireworks.ai"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "fireworks ai",
+   "score": 6.78,
+   "title": "Fireworks AI: Service Degradation for GLM 5.3 Flash (minor impact, 107 min)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Qwen: Qwen3.5 397B A17B",
+     "note": "262K ctx · $0.55/$3.5 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3.5-397b-a17b"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "qwen",
+   "score": 6.67,
+   "title": "Qwen: Qwen3.5 397B A17B: output price raised 17% ($3 → $3.5 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Automations, CLI, Cloud Agents, Grok Bot, IDE, Review Agents",
+   "items": [
+    {
+     "label": "Opus 5.5 is Experiencing 429s",
+     "note": "",
+     "url": "https://stspg.io/4lwl9qsfhlln"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "cursor",
+   "score": 6.6,
+   "title": "Cursor: Opus 5.5 is Experiencing 429s (minor impact, 96 min)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
+     "note": "",
+     "url": "https://status.openai.com"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "openai",
+   "score": 6.55,
+   "title": "OpenAI: Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs. (minor impact, 93 min)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "TTS API",
+   "items": [
+    {
+     "label": "Elevated error rates for Flux TTS",
+     "note": "",
+     "url": "https://stspg.io/lsfrdb8g8h5r"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "deepgram",
+   "score": 6.45,
+   "title": "Deepgram: Elevated error rates for Flux TTS (minor impact, 87 min)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "DeepSeek: DeepSeek V3",
+     "note": "163K ctx · $0.32/$0.89 per M tokens",
+     "url": "https://openrouter.ai/deepseek/deepseek-chat"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "deepseek",
+   "score": 6.35,
+   "title": "DeepSeek: DeepSeek V3: output price cut 13% ($1.0287 → $0.89 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "NVIDIA: Nemotron 3 Super",
+     "note": "262K ctx · $0.08/$0.45 per M tokens",
+     "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "nvidia",
+   "score": 6.25,
+   "title": "NVIDIA: Nemotron 3 Super: output price raised 12% ($0.4 → $0.45 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "inclusionAI: Ling 3.0 Flash Sante (262K ctx · $0.042/$0.1232 per M tokens)",
+   "items": [
+    {
+     "label": "inclusionAI: Ling 3.0 Flash Sante",
+     "note": "262K ctx · $0.042/$0.1232 per M tokens",
+     "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante"
+    }
+   ],
+   "kind": "new_models",
+   "lane": "models",
+   "org": "inclusionai",
+   "score": 6,
+   "title": "inclusionai listed 1 new model today"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Automations, CLI, Cloud Agents, Grok Bot, IDE",
+   "items": [
+    {
+     "label": "Elevated errors affecting Opus 5.5",
+     "note": "",
+     "url": "https://stspg.io/g415ws29757p"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "cursor",
+   "score": 5.97,
+   "title": "Cursor: Elevated errors affecting Opus 5.5 (minor impact, 58 min)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [],
+   "kind": "surge",
+   "lane": "teams",
+   "org": "gitlab",
+   "score": 5.9,
+   "title": "GitLab opened 55 roles in 14 days (27% of its open book), mostly Sales and Engineering"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Z.ai: GLM 5.3",
+     "note": "1048K ctx · $0.04/$3.6 per M tokens",
+     "url": "https://openrouter.ai/z-ai/glm-5.3"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "z-ai",
+   "score": 5.62,
+   "title": "Z.ai: GLM 5.3: output price raised 6% ($3.39 → $3.6 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Equity Administration; Head of Revenue Accounting; Head of Procurement; Head of Process & Controls - Finance and Operations",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "fireworks ai",
+   "score": 5.6,
+   "title": "Fireworks AI is hiring to lead new work: Head of Equity Administration and more"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Forward Deployed Finance Engineer, Private Credit; Forward Deployed Finance Engineer, Buyout; Forward Deployed Finance Engineer, Real Estate",
+   "items": [],
+   "kind": "new_team",
+   "lane": "teams",
+   "org": "harvey",
+   "score": 5.6,
+   "title": "Harvey is building a forward-deployed team: 3 roles, none before"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "NVIDIA: Nemotron 3 Super",
+     "note": "262K ctx · $0.08/$0.45 per M tokens",
+     "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "nvidia",
+   "score": 5.59,
+   "title": "NVIDIA: Nemotron 3 Super: input price cut 6% ($0.085 → $0.08 per M tokens)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Service Degradation for GLM 5.3 Flash",
+     "note": "",
+     "url": "https://status.fireworks.ai"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "fireworks ai",
+   "score": 5.22,
+   "title": "Fireworks AI: Service Degradation for GLM 5.3 Flash (minor impact, 13 min)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Music 2.5 endpoints performance degraded",
+     "note": "",
+     "url": "https://status.elevenlabs.io"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "elevenlabs",
+   "score": 5.17,
+   "title": "ElevenLabs: Music 2.5 endpoints performance degraded (minor impact, 10 min)"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles:  Head of Customer Success, APAC ; Head of Payroll & Equity; Head of Recruiting, Communications, Brand, & Marketing",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "anthropic",
+   "score": 4.4,
+   "title": "Anthropic is hiring to lead new work:  Head of Customer Success, APAC  and more"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Mistral: Mistral Large 4",
+     "note": "",
+     "url": "https://openrouter.ai/mistralai/mistral-large-4-0"
+    }
+   ],
+   "kind": "context_change",
+   "lane": "models",
+   "org": "mistralai",
+   "score": 4,
+   "title": "Mistral: Mistral Large 4 context window 524K → 1048K"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Forward Deployed Engineer - EMEA; Forward Deployed Strategist; Regional Director, Forward Deployed Engineering - India",
+   "items": [],
+   "kind": "theme_push",
+   "lane": "teams",
+   "org": "cursor",
+   "score": 3.96,
+   "title": "Cursor is leaning into forward-deployed: 28% of new roles vs 7% before"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [],
+   "kind": "surge",
+   "lane": "teams",
+   "org": "handshake",
+   "score": 3.3,
+   "title": "Handshake opened 26 roles in 14 days (32% of its open book), mostly Engineering and Sales"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Global Head of Land Revenue; Head of Sales Recruiting, AMER",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "notion",
+   "score": 3.2,
+   "title": "Notion is hiring to lead new work: Global Head of Land Revenue and more"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Marketing Strategy & Operations; Head of Corporate Development",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "replit",
+   "score": 3.2,
+   "title": "Replit is hiring to lead new work: Head of Marketing Strategy & Operations and more"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Baidu: ERNIE 4.5 VL 424B A47B ",
+   "items": [
+    {
+     "label": "Baidu: ERNIE 4.5 VL 424B A47B ",
+     "note": "",
+     "url": null
+    }
+   ],
+   "kind": "delisted",
+   "lane": "models",
+   "org": "baidu",
+   "score": 3,
+   "title": "1 model from baidu left the catalog"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "inclusionAI: Ling 3.0 Flash Sante (free)",
+   "items": [
+    {
+     "label": "inclusionAI: Ling 3.0 Flash Sante (free)",
+     "note": "",
+     "url": null
+    }
+   ],
+   "kind": "delisted",
+   "lane": "models",
+   "org": "inclusionai",
+   "score": 3,
+   "title": "1 model from inclusionai left the catalog"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [],
+   "kind": "surge",
+   "lane": "teams",
+   "org": "fastly",
+   "score": 2.05,
+   "title": "Fastly opened 16 roles in 14 days (32% of its open book), mostly Engineering and Sales"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Field Marketing",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "braintrust",
+   "score": 2.0,
+   "title": "Braintrust is hiring to lead new work: Head of Field Marketing"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of DevRel",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "cerebras",
+   "score": 2.0,
+   "title": "Cerebras is hiring to lead new work: Head of DevRel"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Story & Communications",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "clickhouse",
+   "score": 2.0,
+   "title": "ClickHouse is hiring to lead new work: Head of Story & Communications"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Vice President, Product Management, Managed AI",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "crusoe",
+   "score": 2.0,
+   "title": "Crusoe is hiring to lead new work: Vice President, Product Management, Managed AI"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Chief of Staff to the CMO",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "databricks",
+   "score": 2.0,
+   "title": "Databricks is hiring to lead new work: Chief of Staff to the CMO"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: VP, Investor Relations",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "datadog",
+   "score": 2.0,
+   "title": "Datadog is hiring to lead new work: VP, Investor Relations"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Revenue Operations",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "elevenlabs",
+   "score": 2.0,
+   "title": "ElevenLabs is hiring to lead new work: Head of Revenue Operations"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Legal / General Counsel",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "etched",
+   "score": 2.0,
+   "title": "Etched is hiring to lead new work: Head of Legal / General Counsel"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Marketing, APAC",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "harvey",
+   "score": 2.0,
+   "title": "Harvey is hiring to lead new work: Head of Marketing, APAC"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Strategic Partnerships",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "heygen",
+   "score": 2.0,
+   "title": "HeyGen is hiring to lead new work: Head of Strategic Partnerships"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Engineering",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "llamaindex",
+   "score": 2.0,
+   "title": "LlamaIndex is hiring to lead new work: Head of Engineering"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Customer Experience",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "lovable",
+   "score": 2.0,
+   "title": "Lovable is hiring to lead new work: Head of Customer Experience"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Chief of Staff, Product",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "mercor",
+   "score": 2.0,
+   "title": "Mercor is hiring to lead new work: Chief of Staff, Product"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of People",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "metr",
+   "score": 2.0,
+   "title": "METR is hiring to lead new work: Head of People"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Technical Support",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "mintlify",
+   "score": 2.0,
+   "title": "Mintlify is hiring to lead new work: Head of Technical Support"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: VP, Corporate Controller",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "mongodb",
+   "score": 2.0,
+   "title": "MongoDB is hiring to lead new work: VP, Corporate Controller"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of LATAM Product Partnerships ",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "openai",
+   "score": 2.0,
+   "title": "OpenAI is hiring to lead new work: Head of LATAM Product Partnerships "
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Global Head of Workplace",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "scale ai",
+   "score": 2.0,
+   "title": "Scale AI is hiring to lead new work: Global Head of Workplace"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Korea",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "speak",
+   "score": 2.0,
+   "title": "Speak is hiring to lead new work: Head of Korea"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of AI Native Operations",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "supabase",
+   "score": 2.0,
+   "title": "Supabase is hiring to lead new work: Head of AI Native Operations"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "Example roles: Head of Marketing",
+   "items": [],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": "tavus",
+   "score": 2.0,
+   "title": "Tavus is hiring to lead new work: Head of Marketing"
+  },
+  {
+   "date": "2026-10-09",
+   "detail": "",
+   "items": [],
+   "kind": "surge",
+   "lane": "teams",
+   "org": "writer",
+   "score": 1.73,
+   "title": "Writer opened 15 roles in 14 days (29% of its open book), mostly Customer and Sales"
+  }
+ ]
+}

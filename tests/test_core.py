@@ -130,7 +130,6 @@ class ModelSignalsTest(unittest.TestCase):
         self.assertEqual([s["kind"] for s in sigs], ["price_change"])
         self.assertIn("cut 50%", sigs[0]["title"])
 
-
     def test_price_moves_merge_per_model_drop_sub_cent_and_cap(self):
         def ent(i):
             return {"id": f"o/m{i}", "name": f"M{i}", "org": "o", "context": 1000, "price_in": 1.0, "price_out": 1.0,
@@ -159,6 +158,14 @@ class TeamSignalsTest(unittest.TestCase):
         today = {"A": self.co("A", [dict(surge, title="A opened 22 roles"), team])}
         sigs = teams.signals(LaneResult(teams.LANE, today, base, [], True, None, "2026-10-09"))
         self.assertEqual([s["kind"] for s in sigs], ["new_team"])
+
+    def test_notes_from_before_theme_was_stored_still_match(self):
+        old = {"kind": "theme_push", "score": 5, "examples": [], "title": "A is leaning into Voice: 40% of new roles vs 5% before"}
+        new = dict(old, theme="Voice", title="A is leaning into Voice: 45% of new roles vs 5% before")
+        other = dict(new, theme="Robotics", title="A is leaning into Robotics: 30% of new roles vs 2% before")
+        sigs = teams.signals(LaneResult(teams.LANE, {"A": self.co("A", [new, other])}, {"A": self.co("A", [old])},
+                                        [], True, None, "2026-10-09"))
+        self.assertEqual([s["title"][:30] for s in sigs], [other["title"][:30]])
 
     def test_leadership_rolls_up_new_titles_only(self):
         lead = lambda *t: {"kind": "leadership", "score": 5, "examples": list(t), "title": "x"}

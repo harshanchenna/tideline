@@ -96,7 +96,7 @@ def signals(r: LaneResult) -> list[dict]:
                 continue
             side = "input" if ev["field"] == "price_in" else "output"
             moves.setdefault(e["id"], (e, []))[1].append((side, old, new, pct))
-    ranked = sorted(moves.values(), key=lambda m: -max(abs(x[3]) for x in m[1]))
+    ranked = sorted(moves.values(), key=lambda m: (-max(abs(x[3]) for x in m[1]), m[0]["name"]))
     for e, sides in ranked[:MAX_PRICE_SIGNALS]:
         sides.sort()  # input before output
         parts = [f"{side} {'cut' if pct < 0 else 'raised'} {abs(pct):.0f}% ({money(old)} → {money(new)})"

@@ -18,7 +18,7 @@ from tideline.lanes.common import item, plural, sig
 CONFIG = ROOT / "config" / "teams.json"
 WINDOW = 14
 TECH = ("Engineering", "Research", "Data", "Hardware", "Security")
-LEADS_KEPT = 12  # leadership titles kept per company, so tomorrow's run can tell which are new
+LEADS_KEPT = 50  # leadership titles kept per company, so tomorrow's run can tell which are new
 LEADS_SHOWN = 8  # companies itemized in the leadership roll-up's detail line
 
 
@@ -53,7 +53,7 @@ def _company(c: dict, today: str) -> dict | None:
             notes.append({"kind": "surge", "score": nr * nr / n, "examples": [],
                           "title": f"{c['name']} opened {nr} roles in {WINDOW} days ({nr / n:.0%} of its open book), "
                                    f"mostly {' and '.join(f for f, _ in fn)}"})
-        leads = [" ".join(p["title"].split()) for p in recent if p["leadership"] == 2]
+        leads = sorted({" ".join(p["title"].split()) for p in recent if p["leadership"] == 2})  # sorted: feeds reorder run to run
         if leads:
             notes.append({"kind": "leadership", "score": 2 + 3 * len(leads), "examples": leads[:LEADS_KEPT],
                           "title": f"{c['name']} is hiring to lead new work: {leads[0]}" + (" and more" if len(leads) > 1 else "")})
@@ -77,20 +77,27 @@ def _key(n: dict) -> tuple:
     return n["kind"], n.get("theme")
 
 
+def _seen(n: dict, prev_notes: list[dict]) -> bool:
+    if any(_key(p) == _key(n) for p in prev_notes):
+        return True
+    # Notes written before "theme" was stored only carry the theme in their title.
+    return bool(n.get("theme")) and any(p["kind"] == n["kind"] and "theme" not in p and n["theme"] in p["title"]
+                                        for p in prev_notes)
+
+
 def signals(r: LaneResult) -> list[dict]:
     """Notes describe a 14-day window, so they persist for days. Only report what is new since yesterday."""
     out, leaders = [], []
     for k, e in r.today.items():
-        prev = (r.base or {}).get(k) or {}
-        seen = {_key(n) for n in prev.get("notes") or []}
-        seen_leads = {" ".join(t.split()) for n in prev.get("notes") or [] if n["kind"] == "leadership" for t in n["examples"]}
+        prev = ((r.base or {}).get(k) or {}).get("notes") or []
+        seen_leads = {" ".join(t.split()) for n in prev if n["kind"] == "leadership" for t in n["examples"]}
         for n in e.get("notes") or []:
             if n["kind"] == "leadership":
                 fresh = [t for t in (" ".join(t.split()) for t in n["examples"]) if r.base is None or t not in seen_leads]
                 if fresh:
                     leaders.append((e["id"], fresh))
                 continue
-            if r.base is not None and _key(n) in seen:
+            if r.base is not None and _seen(n, prev):
                 continue
             detail = ("Example roles: " + "; ".join(n["examples"])) if n["examples"] else ""
             out.append(sig(n["kind"], n["title"], detail, e["id"].lower(), [], n["score"] * 0.4))  # supporting context: weighted below the other lanes

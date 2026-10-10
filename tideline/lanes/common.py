@@ -24,5 +24,5 @@ def item(label: str, url: str | None = None, note: str = "") -> dict:
     return {"label": label, "url": url, "note": note}
 
 
-def plural(n: int, word: str) -> str:
-    return f"{n} {word}{'' if n == 1 else 's'}"
+def plural(n: int, word: str, many: str | None = None) -> str:
+    return f"{n} {word if n == 1 else many or word + 's'}"

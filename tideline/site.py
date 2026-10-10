@@ -33,7 +33,7 @@ KIND_LABEL = {"new_models": "New models", "price_change": "Price change", "conte
               "server_release": "Server release", "verified_publishers": "Publishers", "mcp_retired": "Retired", "release": "Release",
               "momentum": "Momentum", "incident": "Incident", "reliability_week": "Reliability",
               "new_team": "New team", "theme_push": "Leaning in", "surge": "Staffing surge",
-              "leadership": "Leadership role", "pullback": "Pullback"}
+              "leadership": "Leadership roles", "pullback": "Pullback"}
 
 CSS = """
 .viz-root{color-scheme:light;--surface-1:#fcfcfb;--surface-2:#f3f2ef;--rule:#e2e1dc;--text-primary:#0b0b0b;

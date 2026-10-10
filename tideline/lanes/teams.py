@@ -13,11 +13,13 @@ from concurrent.futures import ThreadPoolExecutor
 
 from tideline.engine import ROOT, Lane, LaneResult
 from tideline.lanes import _ats
-from tideline.lanes.common import sig
+from tideline.lanes.common import item, plural, sig
 
 CONFIG = ROOT / "config" / "teams.json"
 WINDOW = 14
 TECH = ("Engineering", "Research", "Data", "Hardware", "Security")
+LEADS_KEPT = 12  # leadership titles kept per company, so tomorrow's run can tell which are new
+LEADS_SHOWN = 8  # companies itemized in the leadership roll-up's detail line
 
 
 def _company(c: dict, today: str) -> dict | None:
@@ -39,21 +41,21 @@ def _company(c: dict, today: str) -> dict | None:
         for theme, k in rt.items():
             ex = [p["title"] for p in recent if theme in p["themes"]][:3]
             if k >= 3 and ot[theme] == 0:
-                notes.append({"kind": "new_team", "score": 8 + 2 * k, "examples": ex,
+                notes.append({"kind": "new_team", "theme": theme, "score": 8 + 2 * k, "examples": ex,
                               "title": f"{c['name']} is building a {theme} team: {k} roles, none before"})
             elif k >= 5 and older:
                 rs, os_ = k / nr, ot[theme] / len(older)
                 if rs >= 2 * os_ and rs >= 0.15:
-                    notes.append({"kind": "theme_push", "score": k * (rs / max(os_, 0.02)) ** 0.5, "examples": ex,
+                    notes.append({"kind": "theme_push", "theme": theme, "score": k * (rs / max(os_, 0.02)) ** 0.5, "examples": ex,
                                   "title": f"{c['name']} is leaning into {theme}: {rs:.0%} of new roles vs {os_:.0%} before"})
         if nr >= 10 and nr / n >= 0.25:
             fn = Counter(p["function"] for p in recent).most_common(2)
             notes.append({"kind": "surge", "score": nr * nr / n, "examples": [],
                           "title": f"{c['name']} opened {nr} roles in {WINDOW} days ({nr / n:.0%} of its open book), "
                                    f"mostly {' and '.join(f for f, _ in fn)}"})
-        leads = [p["title"] for p in recent if p["leadership"] == 2]
+        leads = [" ".join(p["title"].split()) for p in recent if p["leadership"] == 2]
         if leads:
-            notes.append({"kind": "leadership", "score": 2 + 3 * len(leads), "examples": leads[:4],
+            notes.append({"kind": "leadership", "score": 2 + 3 * len(leads), "examples": leads[:LEADS_KEPT],
                           "title": f"{c['name']} is hiring to lead new work: {leads[0]}" + (" and more" if len(leads) > 1 else "")})
     return {"id": c["name"], "sector": c["sector"], "open": n, "recent": nr,
             "tech_share": round(sum(p["function"] in TECH for p in uniq) / n, 3) if n else 0,
@@ -71,12 +73,36 @@ def fetch() -> list[dict]:
     return [r for r in rows if r and r["open"]]
 
 
+def _key(n: dict) -> tuple:
+    return n["kind"], n.get("theme")
+
+
 def signals(r: LaneResult) -> list[dict]:
-    out = []
-    for e in r.today.values():
+    """Notes describe a 14-day window, so they persist for days. Only report what is new since yesterday."""
+    out, leaders = [], []
+    for k, e in r.today.items():
+        prev = (r.base or {}).get(k) or {}
+        seen = {_key(n) for n in prev.get("notes") or []}
+        seen_leads = {" ".join(t.split()) for n in prev.get("notes") or [] if n["kind"] == "leadership" for t in n["examples"]}
         for n in e.get("notes") or []:
+            if n["kind"] == "leadership":
+                fresh = [t for t in (" ".join(t.split()) for t in n["examples"]) if r.base is None or t not in seen_leads]
+                if fresh:
+                    leaders.append((e["id"], fresh))
+                continue
+            if r.base is not None and _key(n) in seen:
+                continue
             detail = ("Example roles: " + "; ".join(n["examples"])) if n["examples"] else ""
             out.append(sig(n["kind"], n["title"], detail, e["id"].lower(), [], n["score"] * 0.4))  # supporting context: weighted below the other lanes
+    if leaders:
+        # One industry-level roll-up, never a per-company headline: leadership openings are hiring optics, not news.
+        leaders.sort(key=lambda x: (-len(x[1]), x[0].lower()))
+        n_roles = sum(len(t) for _, t in leaders)
+        out.append(sig("leadership", f"{plural(len(leaders), 'company', 'companies')} posted {plural(n_roles, 'new leadership role')}",
+                       "; ".join(f"{c}: {t[0]}" + (f" (+{len(t) - 1})" if len(t) > 1 else "") for c, t in leaders[:LEADS_SHOWN])
+                       + (f"; and {len(leaders) - LEADS_SHOWN} more" if len(leaders) > LEADS_SHOWN else ""),
+                       None, [item(c, None, "; ".join(t[:4])) for c, t in leaders],
+                       min(2 + len(leaders), 10) * 0.4))
     if r.base:
         for k, e in r.today.items():
             prev = (r.base.get(k) or {}).get("open")

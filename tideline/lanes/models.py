@@ -13,6 +13,10 @@ ORG_NAMES = {"openai": "OpenAI", "anthropic": "Anthropic", "google": "Google", "
              "z-ai": "Zhipu (Z.ai)", "minimax": "MiniMax", "perplexity": "Perplexity", "ai21": "AI21"}
 
 
+MIN_PRICE_MOVE = 0.02  # $ per M tokens: sub-cent moves on near-free models are routing noise, whatever the percentage
+MAX_PRICE_SIGNALS = 8  # models priced individually; the rest share one roll-up
+
+
 def per_million(x) -> float | None:
     try:
         v = float(x)
@@ -74,6 +78,7 @@ def signals(r: LaneResult) -> list[dict]:
         out.append(sig("new_models", f"{org_name(org)} listed {plural(len(ms), 'new model')} {window}",
                        "; ".join(f"{m['name']} ({describe(m)})" for m in ms[:3]), org,
                        [item(m["name"], m["url"], describe(m)) for m in ms], 4 + 2 * len(ms)))
+    moves = {}  # model id -> (entity, [(side, old, new, pct)])
     for ev in r.events:
         if ev["op"] != "changed" or ev["field"] not in ("price_in", "price_out", "context"):
             continue
@@ -87,12 +92,22 @@ def signals(r: LaneResult) -> list[dict]:
             continue
         if old and new is not None and old > 0:
             pct = (new - old) / old * 100
-            if abs(pct) < 5:
+            if abs(pct) < 5 or abs(new - old) < MIN_PRICE_MOVE:
                 continue
             side = "input" if ev["field"] == "price_in" else "output"
-            verb = "cut" if pct < 0 else "raised"
-            out.append(sig("price_change", f"{e['name']}: {side} price {verb} {abs(pct):.0f}% ({money(old)} → {money(new)} per M tokens)",
-                           "", e["org"], [item(e["name"], e["url"], describe(e))], 5 + min(abs(pct), 90) / 10))
+            moves.setdefault(e["id"], (e, []))[1].append((side, old, new, pct))
+    ranked = sorted(moves.values(), key=lambda m: -max(abs(x[3]) for x in m[1]))
+    for e, sides in ranked[:MAX_PRICE_SIGNALS]:
+        sides.sort()  # input before output
+        parts = [f"{side} {'cut' if pct < 0 else 'raised'} {abs(pct):.0f}% ({money(old)} → {money(new)})"
+                 for side, old, new, pct in sides]
+        out.append(sig("price_change", f"{e['name']}: {' and '.join(parts)} per M tokens", "", e["org"],
+                       [item(e["name"], e["url"], describe(e))], 5 + min(max(abs(x[3]) for x in sides), 90) / 10))
+    if len(ranked) > MAX_PRICE_SIGNALS:
+        rest = [e for e, _ in ranked[MAX_PRICE_SIGNALS:]]
+        out.append(sig("price_change", f"{plural(len(rest), 'more model')} changed price",
+                       ", ".join(e["name"] for e in rest[:8]) + (", …" if len(rest) > 8 else ""), None,
+                       [item(e["name"], e["url"], describe(e)) for e in rest], 3))
     removed = [e["entity"] for e in r.events if e["op"] == "removed"]
     for org, ms in by(removed, lambda e: e["org"]).items():
         out.append(sig("delisted", f"{plural(len(ms), 'model')} from {org_name(org)} left the catalog",

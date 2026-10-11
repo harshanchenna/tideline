@@ -11,7 +11,7 @@ from unittest import mock
 from tideline import __main__ as cli
 from tideline import brief, engine, site
 from tideline.engine import Lane, LaneResult
-from tideline.lanes import mcp, models
+from tideline.lanes import mcp, models, teams
 
 
 def lane(rows=None, exc=None, **kw) -> Lane:
@@ -129,6 +129,57 @@ class ModelSignalsTest(unittest.TestCase):
         sigs = models.signals(r)
         self.assertEqual([s["kind"] for s in sigs], ["price_change"])
         self.assertIn("cut 50%", sigs[0]["title"])
+
+    def test_price_moves_merge_per_model_drop_sub_cent_and_cap(self):
+        def ent(i):
+            return {"id": f"o/m{i}", "name": f"M{i}", "org": "o", "context": 1000, "price_in": 1.0, "price_out": 1.0,
+                    "url": "https://openrouter.ai/o/m"}
+        ev = [{"op": "changed", "field": "price_in", "old": 2.0, "new": 1.0, "entity": ent(0)},
+              {"op": "changed", "field": "price_out", "old": 4.0, "new": 2.0, "entity": ent(0)},
+              {"op": "changed", "field": "price_in", "old": 0.01, "new": 0.02, "entity": ent(1)}]  # +100% but $0.01
+        ev += [{"op": "changed", "field": "price_in", "old": 1.0, "new": 1.5, "entity": ent(i)} for i in range(2, 12)]
+        sigs = models.signals(LaneResult(models.LANE, {}, {}, ev, True, None, "2026-10-09"))
+        self.assertEqual(len(sigs), models.MAX_PRICE_SIGNALS + 1)
+        self.assertIn("input cut 50%", sigs[0]["title"])
+        self.assertIn("output cut 50%", sigs[0]["title"])
+        self.assertNotIn("M1:", " ".join(s["title"] for s in sigs))
+        self.assertEqual(sigs[-1]["title"], "3 more models changed price")
+
+
+class TeamSignalsTest(unittest.TestCase):
+    @staticmethod
+    def co(name, notes):
+        return {"id": name, "notes": notes}
+
+    def test_persisting_notes_are_not_reported_again(self):
+        surge = {"kind": "surge", "score": 10, "examples": [], "title": "A opened 20 roles"}
+        team = {"kind": "new_team", "theme": "Voice", "score": 10, "examples": [], "title": "A is building a Voice team"}
+        base = {"A": self.co("A", [surge])}
+        today = {"A": self.co("A", [dict(surge, title="A opened 22 roles"), team])}
+        sigs = teams.signals(LaneResult(teams.LANE, today, base, [], True, None, "2026-10-09"))
+        self.assertEqual([s["kind"] for s in sigs], ["new_team"])
+
+    def test_notes_from_before_theme_was_stored_still_match(self):
+        old = {"kind": "theme_push", "score": 5, "examples": [], "title": "A is leaning into Voice: 40% of new roles vs 5% before"}
+        new = dict(old, theme="Voice", title="A is leaning into Voice: 45% of new roles vs 5% before")
+        other = dict(new, theme="Robotics", title="A is leaning into Robotics: 30% of new roles vs 2% before")
+        sigs = teams.signals(LaneResult(teams.LANE, {"A": self.co("A", [new, other])}, {"A": self.co("A", [old])},
+                                        [], True, None, "2026-10-09"))
+        self.assertEqual([s["title"][:30] for s in sigs], [other["title"][:30]])
+
+    def test_leadership_rolls_up_new_titles_only(self):
+        lead = lambda *t: {"kind": "leadership", "score": 5, "examples": list(t), "title": "x"}
+        base = {"A": self.co("A", [lead("Head of  Sales")]), "B": self.co("B", [])}
+        today = {"A": self.co("A", [lead("Head of Sales", "VP Research")]), "B": self.co("B", [lead("Head of Legal")]),
+                 "C": self.co("C", [lead("Head of Sales")])}
+        sigs = teams.signals(LaneResult(teams.LANE, today, base, [], True, None, "2026-10-09"))
+        self.assertEqual(len(sigs), 1)
+        s = sigs[0]
+        self.assertEqual((s["kind"], s["org"]), ("leadership", None))
+        self.assertEqual(s["title"], "3 companies posted 3 new leadership roles")
+        self.assertNotIn("Head of Sales;", s["detail"].split("C:")[0])  # A's existing role is not repeated
+        self.assertIn("A: VP Research", s["detail"])
+        self.assertLessEqual(s["score"], 4)
 
 
 class BriefTest(unittest.TestCase):

@@ -1,47 +1,47 @@
 {
  "mcp": {
   "bootstrap": false,
-  "date": "2026-11-04",
-  "entities": 56551,
+  "date": "2026-11-05",
+  "entities": 57098,
   "error": null,
-  "events": 3925,
-  "last_ok": "2026-11-04",
+  "events": 4985,
+  "last_ok": "2026-11-05",
   "ok": true
  },
  "models": {
   "bootstrap": false,
-  "date": "2026-11-04",
-  "entities": 453,
+  "date": "2026-11-05",
+  "entities": 452,
   "error": null,
-  "events": 27,
-  "last_ok": "2026-11-04",
+  "events": 39,
+  "last_ok": "2026-11-05",
   "ok": true
  },
  "packages": {
   "bootstrap": false,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "entities": 68,
   "error": null,
-  "events": 25,
-  "last_ok": "2026-11-04",
+  "events": 32,
+  "last_ok": "2026-11-05",
   "ok": true
  },
  "reliability": {
   "bootstrap": false,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "entities": 350,
   "error": null,
-  "events": 25,
-  "last_ok": "2026-11-04",
+  "events": 23,
+  "last_ok": "2026-11-05",
   "ok": true
  },
  "teams": {
   "bootstrap": false,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "entities": 130,
   "error": null,
   "events": 0,
-  "last_ok": "2026-11-04",
+  "last_ok": "2026-11-05",
   "ok": true
  }
 }

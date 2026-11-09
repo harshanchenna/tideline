@@ -1,0 +1,2113 @@
+{
+ "brief": null,
+ "date": "2026-11-09",
+ "health": {
+  "mcp": {
+   "bootstrap": false,
+   "date": "2026-11-09",
+   "entities": 60437,
+   "error": null,
+   "events": 3690,
+   "last_ok": "2026-11-09",
+   "ok": true
+  },
+  "models": {
+   "bootstrap": false,
+   "date": "2026-11-09",
+   "entities": 461,
+   "error": null,
+   "events": 46,
+   "last_ok": "2026-11-09",
+   "ok": true
+  },
+  "packages": {
+   "bootstrap": false,
+   "date": "2026-11-09",
+   "entities": 68,
+   "error": null,
+   "events": 6,
+   "last_ok": "2026-11-09",
+   "ok": true
+  },
+  "reliability": {
+   "bootstrap": false,
+   "date": "2026-11-09",
+   "entities": 350,
+   "error": null,
+   "events": 3,
+   "last_ok": "2026-11-09",
+   "ok": true
+  },
+  "teams": {
+   "bootstrap": false,
+   "date": "2026-11-09",
+   "entities": 130,
+   "error": null,
+   "events": 0,
+   "last_ok": "2026-11-09",
+   "ok": true
+  }
+ },
+ "signals": [
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "OpenAI: gpt-oss-120b",
+     "note": "131K ctx · $0.15/$0.6 per M tokens",
+     "url": "https://openrouter.ai/openai/gpt-oss-120b"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "openai",
+   "score": 14.0,
+   "title": "OpenAI: gpt-oss-120b: input raised 500% ($0.025 → $0.15) and output raised 538% ($0.094 → $0.6) per M tokens"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "DeepSeek: DeepSeek V4 Pro 0423",
+     "note": "1048K ctx · $0.894/$1.788 per M tokens",
+     "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "deepseek",
+   "score": 14.0,
+   "title": "DeepSeek: DeepSeek V4 Pro 0423: input raised 270% ($0.2413 → $0.894) and output raised 270% ($0.4827 → $1.788) per M tokens"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Z.ai: GLM 5.2 (batch)",
+     "note": "1048K ctx · $0.623/$1.271 per M tokens",
+     "url": "https://openrouter.ai/z-ai/glm-5.2:batch"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "z-ai",
+   "score": 11.84,
+   "title": "Z.ai: GLM 5.2 (batch): input raised 68% ($0.37 → $0.623) and output cut 15% ($1.5 → $1.271) per M tokens"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Meta: Llama 3.1 8B Instruct",
+     "note": "131K ctx · $0.02/$0.04 per M tokens",
+     "url": "https://openrouter.ai/meta-llama/llama-3.1-8b-instruct"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "meta-llama",
+   "score": 11.0,
+   "title": "Meta: Llama 3.1 8B Instruct: input cut 60% ($0.05 → $0.02) and output cut 50% ($0.08 → $0.04) per M tokens"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Z.ai: GLM 4.5 Air",
+     "note": "131K ctx · $0.2/$1.1 per M tokens",
+     "url": "https://openrouter.ai/z-ai/glm-4.5-air"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "z-ai",
+   "score": 10.38,
+   "title": "Z.ai: GLM 4.5 Air: input raised 54% ($0.13 → $0.2) and output raised 29% ($0.85 → $1.1) per M tokens"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Z.ai: GLM 5.3 Flash (batch)",
+     "note": "1048K ctx · $0.043/$0.087 per M tokens",
+     "url": "https://openrouter.ai/z-ai/glm-5.3-flash:batch"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "z-ai",
+   "score": 10.17,
+   "title": "Z.ai: GLM 5.3 Flash (batch): output cut 52% ($0.18 → $0.087) per M tokens"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "MiniMax: MiniMax M3.1 Flash",
+     "note": "1048K ctx · $0.075/$0.3 per M tokens",
+     "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "minimax",
+   "score": 10.0,
+   "title": "MiniMax: MiniMax M3.1 Flash: input cut 50% ($0.15 → $0.075) and output cut 50% ($0.6 → $0.3) per M tokens"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Mistral: Mistral Small 3.2 24B",
+     "note": "256K ctx · $0.1/$0.3 per M tokens",
+     "url": "https://openrouter.ai/mistralai/mistral-small-3.2-24b-instruct"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": "mistralai",
+   "score": 10.0,
+   "title": "Mistral: Mistral Small 3.2 24B: input raised 33% ($0.075 → $0.1) and output raised 50% ($0.2 → $0.3) per M tokens"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "801 hosted, 118 local packages, 15 both; 725 from domain-verified publishers.",
+   "items": [],
+   "kind": "mcp_volume",
+   "lane": "mcp",
+   "org": null,
+   "score": 10,
+   "title": "937 new MCP servers today"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "Actions, Webhooks",
+   "items": [
+    {
+     "label": "Incident with Webhooks and Actions",
+     "note": "",
+     "url": "https://stspg.io/4vdghm7tycm4"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "github",
+   "score": 9.83,
+   "title": "GitHub: Incident with Webhooks and Actions (major impact, 110 min)"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Increased timeouts due to surge in anonymous users",
+     "note": "",
+     "url": "https://stspg.io/jztczfplj6yb"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "github",
+   "score": 8.17,
+   "title": "GitHub: Increased timeouts due to surge in anonymous users (minor impact, 190 min)"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [],
+   "kind": "reliability_week",
+   "lane": "reliability",
+   "org": "github",
+   "score": 8,
+   "title": "GitHub had 12 incidents in 7 days (4 major, 16h 9m total)"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "683K downloads last week",
+   "items": [
+    {
+     "label": "fastmcp 4.25.0",
+     "note": "",
+     "url": "https://www.npmjs.com/package/fastmcp"
+    }
+   ],
+   "kind": "release",
+   "lane": "packages",
+   "org": "fastmcp",
+   "score": 7.87,
+   "title": "fastmcp 4.24.5 → 4.25.0 (minor release, npm)"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "dev.cotlet (357), cn.pianam (19), com.a2awire (14), com.mambabuilt (10), com.tidewellsoftware (7), com.postthisdeal (3), com.textforagents (3), ai.homouniversalis (2). Bulk publishers (10+ servers): dev.cotlet, cn.pianam, com.a2awire, com.mambabuilt.",
+   "items": [
+    {
+     "label": "dev.cotlet: 123FormBuilder by Cotlet, 17hats by Cotlet, Absorb LMS by Cotlet",
+     "note": "357 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/123formbuilder"
+    },
+    {
+     "label": "cn.pianam: 12306-train-mcp, adcheck-mcp, calendar-mcp",
+     "note": "19 servers",
+     "url": "https://github.com/boy-373/12306-train-mcp"
+    },
+    {
+     "label": "com.a2awire: Agent Rooms — multi-agent collaboration humans can watch, A2AWire Benchmark: Accept 1102 Reclaim Probe, A2AWire Benchmark: Accept 1102 Shortfall Probe",
+     "note": "14 servers",
+     "url": "https://github.com/ee324/a2awire"
+    },
+    {
+     "label": "com.mambabuilt: mcp-ai-list-extractor-any-website, mcp-bluesky-posts-scraper, mcp-facebook-posts-scraper",
+     "note": "10 servers",
+     "url": "https://github.com/mambalabsdev/mcp-ai-list-extractor-any-website"
+    },
+    {
+     "label": "com.tidewellsoftware: ActionBridge, ATS Jobs API, Document to Markdown for LLM & RAG",
+     "note": "7 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tidewellsoftware/actionbridge"
+    },
+    {
+     "label": "com.postthisdeal: PostThisDeal Deal Evidence, PostThisDeal Handpicked Deals, PostThisDeal Guides and Pages",
+     "note": "3 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.postthisdeal/deal-evidence"
+    },
+    {
+     "label": "com.textforagents: Fleet air-traffic control for agents, Good-neighbor passport: agent traffic governor, Tool-result context binding",
+     "note": "3 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.textforagents/fleet-air-traffic-control"
+    },
+    {
+     "label": "ai.homouniversalis: Homo Universalis — HU-DIAMOND v1.1 Cryptographic Verifier & AST Kintsugi MCP Server, Homo Universalis — HU-DIAMOND v1.1 Cryptographic Verifier & AST Kintsugi MCP Server",
+     "note": "2 servers",
+     "url": "https://github.com/David-Porto-Baraldes/Viveka_Web"
+    },
+    {
+     "label": "ai.slashml: SlashML (/ ml) Persistent Agent Memory & Code Localization, SlashML (/ ml) Embodied Robotics Trajectory Memory",
+     "note": "2 servers",
+     "url": "https://github.com/slashml-ai/ml-memory"
+    },
+    {
+     "label": "app.usekoji: Koji · Brand DNA, Koji · AI video ads",
+     "note": "2 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.usekoji/brand-dna"
+    },
+    {
+     "label": "com.clawhard: Clawhard Dev Tools, Notary",
+     "note": "2 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.clawhard/dev"
+    },
+    {
+     "label": "com.cribalo: criba: who is calling your MCP server, Cribalo research MCP (decoy)",
+     "note": "2 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.cribalo/criba"
+    },
+    {
+     "label": "com.finzdata: FinzData, FinzData Workspace",
+     "note": "2 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.finzdata/mcp"
+    },
+    {
+     "label": "com.forevenza.services: Nestproof: Graded pattern files your LA factory signs off before the cut, Stillleaf: Memorial program correction, printing and delivery",
+     "note": "2 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.forevenza.services/nestproof"
+    },
+    {
+     "label": "io.usefulapi: Dotypos MCP by usefulapi, Fatture in Cloud MCP by usefulapi",
+     "note": "2 servers",
+     "url": "https://github.com/m190/usefulapi-mcp"
+    },
+    {
+     "label": "link.bot2bot: bot2bot, bot2bot: send to my bots",
+     "note": "2 servers",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=link.bot2bot/mcp"
+    },
+    {
+     "label": "academy.serviceengineer: Service Engineer AI",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=academy.serviceengineer/se-ai"
+    },
+    {
+     "label": "ai.aiadvisorlab: AI Advisor Lab — Team Operations",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.aiadvisorlab/teamops"
+    },
+    {
+     "label": "ai.apitree: apitree — AI-Native API Marketplace",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.apitree/apitree"
+    },
+    {
+     "label": "ai.cognitolabs: CognitoLabs.ai",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.cognitolabs/cognitolabs"
+    },
+    {
+     "label": "ai.evre: EVRE",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.evre/evre"
+    },
+    {
+     "label": "ai.getmontage: Montage",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.getmontage/montage"
+    },
+    {
+     "label": "ai.humansfix: humans fix ai",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.humansfix/humansfix"
+    },
+    {
+     "label": "ai.kojen: Kojen",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.kojen/kojen"
+    },
+    {
+     "label": "ai.kottos: Kottos AI",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.kottos/venues"
+    },
+    {
+     "label": "ai.mempipe: Mempipe",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.mempipe/mempipe"
+    },
+    {
+     "label": "ai.monity: monity.ai",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.monity/monity"
+    },
+    {
+     "label": "ai.plainvoice: Plainvoice",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.plainvoice/mcp"
+    },
+    {
+     "label": "ai.rankspot: RankSpot SEO",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.rankspot/seo"
+    },
+    {
+     "label": "ai.realtimeapi: RealtimeAPI.ai",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.realtimeapi/mcp"
+    },
+    {
+     "label": "ai.scopera: SCOPERA",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.scopera/scopera"
+    },
+    {
+     "label": "ai.skrap: Skrap",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.skrap/skrap"
+    },
+    {
+     "label": "ai.spellwarden: Spellwarden",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.spellwarden/spellwarden"
+    },
+    {
+     "label": "ai.stealads: StealAds",
+     "note": "1 server",
+     "url": "https://github.com/TheMattBerman/ads-mcp"
+    },
+    {
+     "label": "ai.strategic-innovations: Strategic Innovations APIs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.strategic-innovations/apis"
+    },
+    {
+     "label": "ai.vavio: Vavio",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.vavio/hermes"
+    },
+    {
+     "label": "ai.weir: WEIR AI",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.weir/weir-ai"
+    },
+    {
+     "label": "ai.yeow: Yeow business index",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.yeow/business-index"
+    },
+    {
+     "label": "app.actionlog: Action Log",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.actionlog/action-log"
+    },
+    {
+     "label": "app.atendedireito: Atende Direito",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.atendedireito/crm"
+    },
+    {
+     "label": "app.datingprofile: DatingProfile: AI dating photos",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.datingprofile/datingprofile"
+    },
+    {
+     "label": "app.firmary: Firmary",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.firmary/mcp"
+    },
+    {
+     "label": "app.haterpicks: HaterPicks API",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.haterpicks/api"
+    },
+    {
+     "label": "app.heymoa: HeyMoa",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.heymoa/heymoa"
+    },
+    {
+     "label": "app.magnt: Magnt",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.magnt/magnt"
+    },
+    {
+     "label": "app.nimbli: Nimbli",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.nimbli/nimbli"
+    },
+    {
+     "label": "app.pinmade: Pinmade: local makers",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.pinmade/pinmade"
+    },
+    {
+     "label": "app.pofa: POFA Tournaments",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.pofa/pofa"
+    },
+    {
+     "label": "app.readshore: ReadShore",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.readshore/readshore"
+    },
+    {
+     "label": "app.reelist: Reelist",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.reelist/reelist"
+    },
+    {
+     "label": "app.roaz: ROAZ Meta Ads Analytics",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.roaz/meta-ads"
+    },
+    {
+     "label": "app.unlimitedmessaging: Unlimited Messaging",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.unlimitedmessaging/mcp"
+    },
+    {
+     "label": "app.usesnippet: Snippet",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.usesnippet/snippet"
+    },
+    {
+     "label": "app.wieldr: Wieldr game radar",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.wieldr/radar"
+    },
+    {
+     "label": "au.com.airsign: AirSign",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=au.com.airsign/airsign"
+    },
+    {
+     "label": "biz.agentconcierge: Agent Concierge",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=biz.agentconcierge/agent-concierge"
+    },
+    {
+     "label": "broker.brick: Brick Broker",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=broker.brick/shop"
+    },
+    {
+     "label": "ca.criticalpathpartners: Critical Path Partners",
+     "note": "1 server",
+     "url": "https://github.com/danafitkowski/cpp-cpm-engine"
+    },
+    {
+     "label": "cam.rooster: Rooster",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=cam.rooster/rooster"
+    },
+    {
+     "label": "cn.moltbook: Moltcn AI Agent Community",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=cn.moltbook/moltcn"
+    },
+    {
+     "label": "co.remotefarm: RemoteFarm",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=co.remotefarm/remotefarm"
+    },
+    {
+     "label": "co.reven: Reven",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=co.reven/mcp"
+    },
+    {
+     "label": "co.webinarstack: WebinarStack",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=co.webinarstack/webinarstack"
+    },
+    {
+     "label": "com.360dialog: 360dialog",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.360dialog/mcp"
+    },
+    {
+     "label": "com.adseezy: Adseezy",
+     "note": "1 server",
+     "url": "https://github.com/adseezy/adseezy-mcp"
+    },
+    {
+     "label": "com.aicarvideo: Car Listing Check",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.aicarvideo/car-listing-check"
+    },
+    {
+     "label": "com.aidememo: AideMemo",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.aidememo/aidememo"
+    },
+    {
+     "label": "com.aikendewit: AikenDewit",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.aikendewit/aikendewit"
+    },
+    {
+     "label": "com.akulacyber: AkulaCyber",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.akulacyber/catalog"
+    },
+    {
+     "label": "com.alohafungi: Aloha Fungi",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.alohafungi/store"
+    },
+    {
+     "label": "com.apptiller: Apptiller",
+     "note": "1 server",
+     "url": "https://github.com/GPT-Genius-Lab/apptiller-mcp"
+    },
+    {
+     "label": "com.aura-historia: Aura Historia",
+     "note": "1 server",
+     "url": "https://github.com/aura-historia/backend"
+    },
+    {
+     "label": "com.awardlanes: awardlanes",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.awardlanes/awardlanes"
+    },
+    {
+     "label": "com.badgerbell: BadgerBell",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.badgerbell/badgerbell"
+    },
+    {
+     "label": "com.beyadcha: BeYadCha Israeli medical rights",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.beyadcha/rights"
+    },
+    {
+     "label": "com.biano: Biano",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.biano/biano"
+    },
+    {
+     "label": "com.birdproxies: BirdProxies",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.birdproxies/mcp"
+    },
+    {
+     "label": "com.bordfeed: Bordfeed",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.bordfeed/mcp"
+    },
+    {
+     "label": "com.broombook: Broombook: cleaning business calculators",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.broombook/free-tools"
+    },
+    {
+     "label": "com.calmfamilyprintables: Breatho & Friends",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.calmfamilyprintables/breatho-and-friends"
+    },
+    {
+     "label": "com.candidatefalcon: Candidate Falcon",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.candidatefalcon/candidate-falcon"
+    },
+    {
+     "label": "com.carvoltlab: 카볼트랩 CarVoltLab",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.carvoltlab/carvoltlab"
+    },
+    {
+     "label": "com.celebriza: Celebriza invitations",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.celebriza/invitations"
+    },
+    {
+     "label": "com.certgio: Certgio",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.certgio/coi-check"
+    },
+    {
+     "label": "com.cheapxapi: cheapxapi",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.cheapxapi/mcp"
+    },
+    {
+     "label": "com.christianpure: Christian Pure",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.christianpure/connector"
+    },
+    {
+     "label": "com.clockintoday: ClockInToday: No-Interview Jobs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.clockintoday/no-interview-jobs"
+    },
+    {
+     "label": "com.comedybuff: Comedy Buff",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.comedybuff/catalog"
+    },
+    {
+     "label": "com.consolemouse: ConsoleMouse profiles",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.consolemouse/profiles"
+    },
+    {
+     "label": "com.contrasttherapyfinder.www: Contrast Therapy Finder",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.contrasttherapyfinder.www/contrast-therapy-finder"
+    },
+    {
+     "label": "com.cosasguapas: Cosas Guapas: buscador de regalos",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.cosasguapas/buscador-regalos"
+    },
+    {
+     "label": "com.crowfoundry: proRēķins",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.crowfoundry/prorekins"
+    },
+    {
+     "label": "com.darmousseh: Watch",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.darmousseh/watch"
+    },
+    {
+     "label": "com.daututaisanmahoa: Research Lab · Đầu Tư Tài Sản Mã Hoá",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.daututaisanmahoa/research-lab"
+    },
+    {
+     "label": "com.davelalande: American Adventurer Camps",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.davelalande/camps"
+    },
+    {
+     "label": "com.denkops: DenkOps",
+     "note": "1 server",
+     "url": "https://github.com/DenkOpsAI/denkops-mcp"
+    },
+    {
+     "label": "com.dropgone: DropGone",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.dropgone/dropgone"
+    },
+    {
+     "label": "com.dual-llm.www: Dual LLM",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.dual-llm.www/dual"
+    },
+    {
+     "label": "com.elliottwaveatlas: Elliott Wave Atlas",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.elliottwaveatlas/elliott-wave-atlas"
+    },
+    {
+     "label": "com.erateradar: erateradar",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.erateradar/erateradar"
+    },
+    {
+     "label": "com.estotambienespolitica: Archivo de Esto También es Política",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.estotambienespolitica/archivo"
+    },
+    {
+     "label": "com.europeanesim: european eSIM — one eSIM for all of Europe",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.europeanesim/esim-catalog"
+    },
+    {
+     "label": "com.ev-route: EV-ROUTE",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ev-route/mcp"
+    },
+    {
+     "label": "com.exayard: Exayard",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.exayard/exayard"
+    },
+    {
+     "label": "com.exitticketjobs: Exit Ticket Teacher Jobs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.exitticketjobs/teacher-jobs"
+    },
+    {
+     "label": "com.featureloom: featureloom",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.featureloom/featureloom"
+    },
+    {
+     "label": "com.fedsalary: FedSalary: official pay data",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.fedsalary/official-pay"
+    },
+    {
+     "label": "com.form5500data: Plan Data API",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.form5500data/plan-data"
+    },
+    {
+     "label": "com.fotor.mcp: Fotor MCP",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.fotor.mcp/mcp"
+    },
+    {
+     "label": "com.foundingbird: Foundingbird",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.foundingbird/mcp"
+    },
+    {
+     "label": "com.frcementor.www: FRCEM Mentor",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.frcementor.www/frcem-mentor"
+    },
+    {
+     "label": "com.fridgebase: FridgeBase (US)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.fridgebase/fridges"
+    },
+    {
+     "label": "com.futurmatch: Futurmatch Assistant",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.futurmatch/assistant"
+    },
+    {
+     "label": "com.get-citable: Citable",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.get-citable/citable"
+    },
+    {
+     "label": "com.get-lantis: Lantis",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.get-lantis/lantis"
+    },
+    {
+     "label": "com.getproven: Trusted Vendors",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.getproven/trust-index"
+    },
+    {
+     "label": "com.gobrowz: Browz",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.gobrowz/browz"
+    },
+    {
+     "label": "com.golfclubindex.app: Golf Club Index",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.golfclubindex.app/price-guide"
+    },
+    {
+     "label": "com.goshift-eg: Go Shift",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.goshift-eg/ads"
+    },
+    {
+     "label": "com.gotolocalai: Go-To Local Missed-Call Calculator",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.gotolocalai/missed-call-calculator"
+    },
+    {
+     "label": "com.grabthecool: Grab the Cool Gift Finder",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.grabthecool/gift-finder"
+    },
+    {
+     "label": "com.grades: Grades.com",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.grades/mcp"
+    },
+    {
+     "label": "com.growkik: Growkik Directorios",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.growkik/directorios"
+    },
+    {
+     "label": "com.heavenpc: HeavenPC (US)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.heavenpc/server-racks"
+    },
+    {
+     "label": "com.hostsherlock: HostSherlock",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.hostsherlock/mcp"
+    },
+    {
+     "label": "com.indexcyborg: IndexCyborg",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.indexcyborg/indexcyborg"
+    },
+    {
+     "label": "com.insightbazi: InsightBaZi",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.insightbazi/bazi"
+    },
+    {
+     "label": "com.involucrados: Involucrados: Spain public spending data",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.involucrados/gasto-publico"
+    },
+    {
+     "label": "com.iquly: IQuly: Meta Ads for your AI agent",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.iquly/iquly"
+    },
+    {
+     "label": "com.itscreo: Creo factor exposure API",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.itscreo/creo"
+    },
+    {
+     "label": "com.jointhedeal: JoinTheDeal",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.jointhedeal/deals"
+    },
+    {
+     "label": "com.justconnectus: JustConnectUs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.justconnectus/justconnectus"
+    },
+    {
+     "label": "com.kitchenwatt: KitchenWatt (US)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.kitchenwatt/food-processors"
+    },
+    {
+     "label": "com.koloverify: Kolo Verify services",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.koloverify/services"
+    },
+    {
+     "label": "com.lamplightverse: Lamplight Daily Verse",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.lamplightverse/daily-verse"
+    },
+    {
+     "label": "com.landedfx: LandedFX",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.landedfx/fx"
+    },
+    {
+     "label": "com.leadbotapp: LeadBot AI",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.leadbotapp/leadbot"
+    },
+    {
+     "label": "com.limewire: LimeWire Agent Files",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.limewire/agent-files"
+    },
+    {
+     "label": "com.lottiefiles: Generative Icons",
+     "note": "1 server",
+     "url": "https://github.com/LottieFiles/generative-icons"
+    },
+    {
+     "label": "com.lstuvi: LsTuvi - Tử Vi & Lịch âm",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.lstuvi/tuvi"
+    },
+    {
+     "label": "com.mailsuite: Mailsuite",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.mailsuite/mcp"
+    },
+    {
+     "label": "com.mapiron: MapIron Maps",
+     "note": "1 server",
+     "url": "https://github.com/Software-Consulting/mapiron-mcp"
+    },
+    {
+     "label": "com.maps-agent: Maps Agent",
+     "note": "1 server",
+     "url": "https://github.com/maps-agent/mcp"
+    },
+    {
+     "label": "com.mapsemble: Mapsemble",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.mapsemble/mapsemble"
+    },
+    {
+     "label": "com.mcpmorning: MCP Morning",
+     "note": "1 server",
+     "url": "https://github.com/rubenscpneto/mcp-morning"
+    },
+    {
+     "label": "com.meweapps: MeWeApps Deep-Tech Scanners",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.meweapps/deeptech-scanners"
+    },
+    {
+     "label": "com.mockingbirdhouse: Mockingbird",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.mockingbirdhouse/mockingbird"
+    },
+    {
+     "label": "com.mondschein: Hotel Mondschein, Stuben am Arlberg",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.mondschein/hotel"
+    },
+    {
+     "label": "com.motorsingh: MotorSingh Used Cars India",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.motorsingh/used-cars"
+    },
+    {
+     "label": "com.mrmylo: MYLO program guides",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.mrmylo/program-guides"
+    },
+    {
+     "label": "com.nagariguntha: Nagari Guntha: Ahilyanagar property",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nagariguntha/property"
+    },
+    {
+     "label": "com.nativegamingservices: NGS Slot Machine Parts Catalog",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nativegamingservices/slot-parts"
+    },
+    {
+     "label": "com.newlyraised: newlyraised",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.newlyraised/newlyraised"
+    },
+    {
+     "label": "com.nexatabs: NexaTabs - Tab Manager, Workspaces & Session Saver",
+     "note": "1 server",
+     "url": "https://github.com/nebulatech-in/nexatabs-docs"
+    },
+    {
+     "label": "com.nibiashara: Ni Biashara Diaspora Directory",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nibiashara/directory"
+    },
+    {
+     "label": "com.nifetency: MCP-Excel",
+     "note": "1 server",
+     "url": "https://github.com/nifetency/mcp-excel"
+    },
+    {
+     "label": "com.nogamovement: NOGA Movement",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nogamovement/agent-doorway"
+    },
+    {
+     "label": "com.ocarrat: Trading Statistics by Ocarrat",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ocarrat/trading-statistics"
+    },
+    {
+     "label": "com.offthefloornurse: Off the Floor Nurse Jobs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.offthefloornurse/nurse-jobs"
+    },
+    {
+     "label": "com.onlineornot: OnlineOrNot",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.onlineornot/onlineornot"
+    },
+    {
+     "label": "com.ontrackmoving: Ontrack Moving Quotes",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ontrackmoving/moving-quotes"
+    },
+    {
+     "label": "com.opmiz: Opmiz",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.opmiz/opmiz"
+    },
+    {
+     "label": "com.padelexpertlab: Padel Expert Lab",
+     "note": "1 server",
+     "url": "https://github.com/FluxCoreGroup/padelexpertlab-mcp"
+    },
+    {
+     "label": "com.pageverified: PageVerified",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.pageverified/tools"
+    },
+    {
+     "label": "com.parhard: ParHard courses",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.parhard/courses"
+    },
+    {
+     "label": "com.parksy: Parksy",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.parksy/parksy"
+    },
+    {
+     "label": "com.paxmod: Paxmod",
+     "note": "1 server",
+     "url": "https://github.com/paxmod/paxmod-mcp"
+    },
+    {
+     "label": "com.photo2skin: Photo2Skin",
+     "note": "1 server",
+     "url": "https://github.com/photo2skin/photo2skin-mcp"
+    },
+    {
+     "label": "com.postalrios: Postalrios",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.postalrios/postalrios"
+    },
+    {
+     "label": "com.privatejet: PrivateJet.com",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.privatejet/charter"
+    },
+    {
+     "label": "com.pronovatx: Pronova Site Audit",
+     "note": "1 server",
+     "url": "https://github.com/chrispronovadesigns/pronova-mcp-apps"
+    },
+    {
+     "label": "com.propriosign: ProprioSign",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.propriosign/propriosign"
+    },
+    {
+     "label": "com.purebpm: Pure BPM",
+     "note": "1 server",
+     "url": "https://github.com/Pure-BPM/pure-bpm-mcp"
+    },
+    {
+     "label": "com.pysolvr: LLM Prover",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.pysolvr/llmprover"
+    },
+    {
+     "label": "com.rightblogger: RightBlogger",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.rightblogger/rightblogger"
+    },
+    {
+     "label": "com.rivtor: Rivtor",
+     "note": "1 server",
+     "url": "https://github.com/shyamolkonwar/rivtor-cli"
+    },
+    {
+     "label": "com.rizamo: Rizamo",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.rizamo/mcp"
+    },
+    {
+     "label": "com.roasby: Roasby",
+     "note": "1 server",
+     "url": "https://github.com/Roasby/roasby"
+    },
+    {
+     "label": "com.rogerrepair: Roger Repair",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.rogerrepair/roger-repair"
+    },
+    {
+     "label": "com.rowhousesoftware: Platemark",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.rowhousesoftware/platemark"
+    },
+    {
+     "label": "com.saascustomdomains: SaaS Custom Domains",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.saascustomdomains/mcp"
+    },
+    {
+     "label": "com.sfxbrew: SFX Brew",
+     "note": "1 server",
+     "url": "https://github.com/2365836149-sketch/sfxbrew"
+    },
+    {
+     "label": "com.shapecalendar: Shape",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shapecalendar/shape"
+    },
+    {
+     "label": "com.signalforge-ai: SignalForge AI SFConnect",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.signalforge-ai/sfconnect"
+    },
+    {
+     "label": "com.simpleacme: SimpleACME DNS-01 setup",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.simpleacme/dns-setup"
+    },
+    {
+     "label": "com.six-ir: Six-IR image sizes",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.six-ir/six-ir"
+    },
+    {
+     "label": "com.softwarebelongs: Software Belongs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.softwarebelongs/software-belongs"
+    },
+    {
+     "label": "com.specialneedsusa: Special Needs Care Network",
+     "note": "1 server",
+     "url": "https://github.com/SPCN-USA/specialneeds-cli"
+    },
+    {
+     "label": "com.splitscanner: SplitScanner",
+     "note": "1 server",
+     "url": "https://github.com/signal8ai/signal8-mcp"
+    },
+    {
+     "label": "com.stampywallet: StampyWallet",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.stampywallet/stampywallet"
+    },
+    {
+     "label": "com.standbybrief: StandbyBrief",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.standbybrief/standbybrief"
+    },
+    {
+     "label": "com.stash-squirrel: Stash Squirrel",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.stash-squirrel/stash-squirrel"
+    },
+    {
+     "label": "com.subhadipmitra: Subhadip Mitra: essays, research and projects",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.subhadipmitra/site"
+    },
+    {
+     "label": "com.sulihuli: SuliHuli EV catalog",
+     "note": "1 server",
+     "url": "https://github.com/sulihuli/mcp"
+    },
+    {
+     "label": "com.swellcabin: Swell Cabin",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.swellcabin/surf"
+    },
+    {
+     "label": "com.synap402: Synap",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.synap402/synap-mcp"
+    },
+    {
+     "label": "com.tetheredtrust: Tethered Trust for builders",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tetheredtrust/builders"
+    },
+    {
+     "label": "com.tetramlabs: Point (Tetra M Labs)",
+     "note": "1 server",
+     "url": "https://github.com/adi34444/TetramLabs-website"
+    },
+    {
+     "label": "com.thejunix.moc: Moc Laser Studio",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.thejunix.moc/laser-studio"
+    },
+    {
+     "label": "com.theopros: theoPros",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.theopros/mcp"
+    },
+    {
+     "label": "com.theorem-labs.praxis: Theorem Praxis",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.theorem-labs.praxis/praxis"
+    },
+    {
+     "label": "com.tripomatic: Tripomatic Trip Planner",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tripomatic/trip-planner"
+    },
+    {
+     "label": "com.tripyana: Tripyana Live Chauffeur Quotes",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tripyana/live-quotes"
+    },
+    {
+     "label": "com.truetravelcost: TrueTravelCost",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.truetravelcost/trip-cost"
+    },
+    {
+     "label": "com.tunnelhq: TunnelHQ",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tunnelhq/tunnelhq"
+    },
+    {
+     "label": "com.urlaunch: Urlaunch",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.urlaunch/urlaunch"
+    },
+    {
+     "label": "com.us.fintech: Fintech Careers MCP",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.us.fintech/fintechjobs"
+    },
+    {
+     "label": "com.usegeekthing: UGT: Use the Geek Thing",
+     "note": "1 server",
+     "url": "https://github.com/usegeekthing/ugt"
+    },
+    {
+     "label": "com.usethatapp: UseThatApp",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.usethatapp/usethatapp"
+    },
+    {
+     "label": "com.vietnis.mcp: Vietnis Cloud Cost Calculator",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.vietnis.mcp/cloud-cost"
+    },
+    {
+     "label": "com.vincevangen: vincevangen",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.vincevangen/vvgen"
+    },
+    {
+     "label": "com.washedge: WashEdge (US)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.washedge/washing-machines"
+    },
+    {
+     "label": "com.washydish: WashyDish (US)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.washydish/dishwashers"
+    },
+    {
+     "label": "com.wcspoints: WCS Points",
+     "note": "1 server",
+     "url": "https://github.com/akarakotov/wsdc-mcp"
+    },
+    {
+     "label": "com.withpanta: Panta Swiss Job Market Data",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.withpanta/panta"
+    },
+    {
+     "label": "com.woodroar: WoodRoar (US)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.woodroar/chainsaws"
+    },
+    {
+     "label": "com.worthleaving: Worth Leaving",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.worthleaving/verdict"
+    },
+    {
+     "label": "com.yardrider: YardRider (US)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.yardrider/lawn-mowers"
+    },
+    {
+     "label": "com.youruxagent: Your UX Agent",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.youruxagent/mcp"
+    },
+    {
+     "label": "com.zepsell: Zepsell",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.zepsell/zepsell"
+    },
+    {
+     "label": "de.fortsu: FortSu DE",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.fortsu/mcp"
+    },
+    {
+     "label": "de.fraghugo: frag.hugo",
+     "note": "1 server",
+     "url": "https://github.com/Jens-KI-007/fraghugo-claude-plugin"
+    },
+    {
+     "label": "de.profilfoto-ki: Headshot Photo Check",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.profilfoto-ki/headshot-check"
+    },
+    {
+     "label": "de.relayted: relayted API",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.relayted/api"
+    },
+    {
+     "label": "de.spanndecken-roth: Spanndecken ROTH Preisrechner",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.spanndecken-roth/preisrechner"
+    },
+    {
+     "label": "de.tarifkat: Tarifkatalog",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.tarifkat/tarifkatalog"
+    },
+    {
+     "label": "de.wowfunde: WowFunde: Geschenkfinder",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=de.wowfunde/geschenkfinder"
+    },
+    {
+     "label": "de.zugferd-tools: csv2zugferd",
+     "note": "1 server",
+     "url": "https://github.com/rillsoft/csv2zugferd"
+    },
+    {
+     "label": "design.alberti: Alberti",
+     "note": "1 server",
+     "url": "https://github.com/superherounite/alberti-claude"
+    },
+    {
+     "label": "dev.checkbooth: Checkbooth",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.checkbooth/checkbooth"
+    },
+    {
+     "label": "dev.liro: Liro",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.liro/liro"
+    },
+    {
+     "label": "dev.nucleowp: Nucleo for WordPress",
+     "note": "1 server",
+     "url": "https://github.com/nucleowp/nucleo"
+    },
+    {
+     "label": "dev.pcbbrew: PCBBrew",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.pcbbrew/pcbbrew"
+    },
+    {
+     "label": "dev.salla: Salla",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.salla/merchant"
+    },
+    {
+     "label": "dev.signalshelf: SignalShelf",
+     "note": "1 server",
+     "url": "https://github.com/theanujkapoor/signalshelf-mcp"
+    },
+    {
+     "label": "dev.slashclone: SlashClone",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.slashclone/slashclone"
+    },
+    {
+     "label": "dev.steadysite: SteadySite",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.steadysite/steadysite"
+    },
+    {
+     "label": "dev.witcc: WIT Calendar",
+     "note": "1 server",
+     "url": "https://github.com/WITCodingClub/calendar-backend"
+    },
+    {
+     "label": "dk.pdf: PDF.dk",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dk.pdf/pdfdk"
+    },
+    {
+     "label": "domains.unique: Unique Domains",
+     "note": "1 server",
+     "url": "https://github.com/UniqueDomains/mcp-server"
+    },
+    {
+     "label": "ee.pesupanda: agent",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ee.pesupanda/agent"
+    },
+    {
+     "label": "email.dygc: mailglass",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=email.dygc/mailglass"
+    },
+    {
+     "label": "es.fortsu: FortSu ES",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=es.fortsu/mcp"
+    },
+    {
+     "label": "eu.cookierisk: CookieRisk Quickscan",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=eu.cookierisk/quickscan"
+    },
+    {
+     "label": "finance.heed: Heed",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=finance.heed/mcp"
+    },
+    {
+     "label": "fr.capepartners: Cape Partners Exchange",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fr.capepartners/cape-exchange"
+    },
+    {
+     "label": "fr.fridgebase: FridgeBase (France)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fr.fridgebase/frigos"
+    },
+    {
+     "label": "fr.heavenpc: HeavenPC (France)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fr.heavenpc/baies-informatiques"
+    },
+    {
+     "label": "fr.insolitewow: Insolite Wow : idées cadeaux",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fr.insolitewow/idees-cadeaux"
+    },
+    {
+     "label": "fr.kitchenwatt: KitchenWatt (France)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fr.kitchenwatt/robots-de-cuisine"
+    },
+    {
+     "label": "fr.washedge: WashEdge (France)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fr.washedge/machines-a-laver"
+    },
+    {
+     "label": "fr.washydish: WashyDish (France)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fr.washydish/lave-vaisselle"
+    },
+    {
+     "label": "fr.woodroar: WoodRoar (France)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fr.woodroar/tronconneuses"
+    },
+    {
+     "label": "fr.yardrider: YardRider (France)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fr.yardrider/tondeuses"
+    },
+    {
+     "label": "hu.ipon: iPon webshop",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=hu.ipon/shop"
+    },
+    {
+     "label": "ing.trysometh.edit: EditAtlas",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ing.trysometh.edit/editatlas"
+    },
+    {
+     "label": "io.cloudjobs: CloudJobs",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.cloudjobs/mcp"
+    },
+    {
+     "label": "io.cryptocoinstat: CryptoCoinStat",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.cryptocoinstat/mcp"
+    },
+    {
+     "label": "io.ctrl-cv: ctrl-cv",
+     "note": "1 server",
+     "url": "https://github.com/hongkunyoo/ctrl-cv"
+    },
+    {
+     "label": "io.dorabot: Dorabot – Vietnam public holidays & business days",
+     "note": "1 server",
+     "url": "https://github.com/Dorabot-io/ngay-le"
+    },
+    {
+     "label": "io.freespy: FreeSpy",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.freespy/mcp"
+    },
+    {
+     "label": "io.proxyempire: ProxyEmpire",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.proxyempire/mcp"
+    },
+    {
+     "label": "io.schematik: Schematik",
+     "note": "1 server",
+     "url": "https://github.com/schematik-engineering/schematik-mcp"
+    },
+    {
+     "label": "io.setto.docs: SETTO",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.setto.docs/mcp"
+    },
+    {
+     "label": "io.suverse.versum: Versum",
+     "note": "1 server",
+     "url": "https://github.com/sudzikcoin/versum-agent-assistant"
+    },
+    {
+     "label": "io.veriphone: Veriphone",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.veriphone/mcp"
+    },
+    {
+     "label": "io.yof: yof",
+     "note": "1 server",
+     "url": "https://github.com/yof-dev/yof"
+    },
+    {
+     "label": "it.cosedawow: Cose da Wow: trova regali",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=it.cosedawow/trova-regali"
+    },
+    {
+     "label": "jp.cloneai.ai: CloneAI for Agents + Agent Hub",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=jp.cloneai.ai/agent-hub"
+    },
+    {
+     "label": "land.compose.routepot: Routepot",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=land.compose.routepot/routepot"
+    },
+    {
+     "label": "lt.zodly: zodly",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=lt.zodly/zodly"
+    },
+    {
+     "label": "me.agents2: agents2.me",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=me.agents2/agents2me"
+    },
+    {
+     "label": "net.bramvia: Bramvia: Business Central & Dynamics NAV",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=net.bramvia/business-central"
+    },
+    {
+     "label": "net.eddish: Eddish Invoicing",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=net.eddish/invoicing"
+    },
+    {
+     "label": "net.energyia: EnergyIA.NET",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=net.energyia/energyia"
+    },
+    {
+     "label": "net.joehill: Joe Hill, AI partner in Tennessee",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=net.joehill/mcp"
+    },
+    {
+     "label": "network.tier1protocol: Tier 1 Protocol",
+     "note": "1 server",
+     "url": "https://github.com/Tier-1-Protocol/tier1-protocol-connector"
+    },
+    {
+     "label": "news.truecrime: TrueCrime.News Case Archive",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=news.truecrime/case-archive"
+    },
+    {
+     "label": "nl.breazyinsights: BreazyInsights",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=nl.breazyinsights/breazyinsights"
+    },
+    {
+     "label": "nl.knappekeuze: KnappeKeuze",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=nl.knappekeuze/catalogus"
+    },
+    {
+     "label": "nl.krava: Krava",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=nl.krava/krava"
+    },
+    {
+     "label": "nl.prijsprofeet: PrijsProfeet Deutschland",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=nl.prijsprofeet/prijsprofeet-de"
+    },
+    {
+     "label": "no.solrapport: Solrapport",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=no.solrapport/sun"
+    },
+    {
+     "label": "one.one-by: one-by.one",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=one.one-by/planner"
+    },
+    {
+     "label": "online.contatto: Contatto CRM",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=online.contatto/crm"
+    },
+    {
+     "label": "online.inomov: Farrukh Inomov",
+     "note": "1 server",
+     "url": "https://github.com/farrukhinomov/personal-page"
+    },
+    {
+     "label": "org.agent-commons: Agent Commons",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=org.agent-commons/agent-commons"
+    },
+    {
+     "label": "org.evebrief.oracle: EveBrief Risk Oracle (ERO)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=org.evebrief.oracle/risk-check"
+    },
+    {
+     "label": "org.hominoport: Hominoport",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=org.hominoport/hominoport"
+    },
+    {
+     "label": "org.jaryo: Jaryo - Korean company records, sourced. Start with verify_company (no key)",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=org.jaryo/korean-companies"
+    },
+    {
+     "label": "photos.crisp: crisp.photos",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=photos.crisp/image-tools"
+    },
+    {
+     "label": "place.rally: Rally Studio",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=place.rally/studio"
+    },
+    {
+     "label": "plus.vfx: VFX Plus",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=plus.vfx/studio"
+    },
+    {
+     "label": "pro.phulax: Phulax",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=pro.phulax/phulax"
+    },
+    {
+     "label": "ru.electroatlas: Электроатлас",
+     "note": "1 server",
+     "url": "https://github.com/electroatlas/mcp"
+    },
+    {
+     "label": "run.windlass: Windlass",
+     "note": "1 server",
+     "url": "https://github.com/Sulaiman-Dauda/windlass"
+    },
+    {
+     "label": "sh.kyte: Kyte",
+     "note": "1 server",
+     "url": "https://github.com/usekyte-org/kyte-mcp"
+    },
+    {
+     "label": "shoes.getsize: GetSize",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=shoes.getsize/getsize"
+    },
+    {
+     "label": "si.boterly: Boterly",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=si.boterly/boterly"
+    },
+    {
+     "label": "site.hahachinese: Base Token Check",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=site.hahachinese/base-token-check"
+    },
+    {
+     "label": "sk.nakus: NaKus unit price",
+     "note": "1 server",
+     "url": "https://github.com/UMBRAXON/nakus-mcp"
+    },
+    {
+     "label": "so.astrid: Astrid",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=so.astrid/astrid"
+    },
+    {
+     "label": "so.droply: Droply",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=so.droply/droply"
+    },
+    {
+     "label": "solutions.avineon: Avineon",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=solutions.avineon/mcp"
+    },
+    {
+     "label": "tech.upto: Up To Tech",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=tech.upto/up-to-tech"
+    },
+    {
+     "label": "today.theplanet: The Planet",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=today.theplanet/mcp"
+    },
+    {
+     "label": "uk.co.fortsu: FortSu UK",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=uk.co.fortsu/mcp"
+    },
+    {
+     "label": "uk.co.santascalling: Santa's Calling",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=uk.co.santascalling/santas-calling"
+    },
+    {
+     "label": "us.agentland: AgentLand",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=us.agentland/agentland"
+    },
+    {
+     "label": "work.agentexchange.store: mcp",
+     "note": "1 server",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=work.agentexchange.store/mcp"
+    }
+   ],
+   "kind": "verified_publishers",
+   "lane": "mcp",
+   "org": null,
+   "score": 7.0,
+   "title": "310 domain-verified publishers shipped MCP servers today"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "API Requests",
+   "items": [
+    {
+     "label": "Increase in timeouts for some unauthenticated users",
+     "note": "",
+     "url": "https://stspg.io/5yt31mfmyc6p"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "github",
+   "score": 6.93,
+   "title": "GitHub: Increase in timeouts for some unauthenticated users (minor impact, 116 min)"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Elevated errors with image generation",
+     "note": "",
+     "url": "https://status.openai.com"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "openai",
+   "score": 6.82,
+   "title": "OpenAI: Elevated errors with image generation (minor impact, 109 min)"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "Qwen: Qwen3.8 Max (0902) (batch) (262K ctx · $1.15/$3.45 per M tokens)",
+   "items": [
+    {
+     "label": "Qwen: Qwen3.8 Max (0902) (batch)",
+     "note": "262K ctx · $1.15/$3.45 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3.8-max-0902:batch"
+    }
+   ],
+   "kind": "new_models",
+   "lane": "models",
+   "org": "qwen",
+   "score": 6,
+   "title": "Qwen listed 1 new model today"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "Claude API (api.anthropic.com), Claude Code, Claude Cowork, claude.ai",
+   "items": [
+    {
+     "label": "Degraded performance for Claude Fable 5.1",
+     "note": "",
+     "url": "https://stspg.io/3m3q1nwb142k"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "anthropic",
+   "score": 5.43,
+   "title": "Anthropic: Degraded performance for Claude Fable 5.1 (minor impact, 26 min)"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Service Degradation for Qwen 3.8 Max",
+     "note": "",
+     "url": "https://status.fireworks.ai"
+    }
+   ],
+   "kind": "incident",
+   "lane": "reliability",
+   "org": "fireworks ai",
+   "score": 5.05,
+   "title": "Fireworks AI: Service Degradation for Qwen 3.8 Max (minor impact, 3 min)"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "MiniMax: MiniMax M2.5",
+     "note": "",
+     "url": "https://openrouter.ai/minimax/minimax-m2.5"
+    }
+   ],
+   "kind": "context_change",
+   "lane": "models",
+   "org": "minimax",
+   "score": 3,
+   "title": "MiniMax: MiniMax M2.5 context window 204K → 200K"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "MiniMax: MiniMax M2.7",
+     "note": "",
+     "url": "https://openrouter.ai/minimax/minimax-m2.7"
+    }
+   ],
+   "kind": "context_change",
+   "lane": "models",
+   "org": "minimax",
+   "score": 3,
+   "title": "MiniMax: MiniMax M2.7 context window 204K → 196K"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "StepFun: Step 5 Preview",
+     "note": "",
+     "url": "https://openrouter.ai/stepfun/step-5-preview"
+    }
+   ],
+   "kind": "context_change",
+   "lane": "models",
+   "org": "stepfun",
+   "score": 3,
+   "title": "StepFun: Step 5 Preview context window 1048K → 1000K"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "",
+   "items": [
+    {
+     "label": "Xiaomi: MiMo-V2.5-Pro",
+     "note": "",
+     "url": "https://openrouter.ai/xiaomi/mimo-v2.5-pro"
+    }
+   ],
+   "kind": "context_change",
+   "lane": "models",
+   "org": "xiaomi",
+   "score": 3,
+   "title": "Xiaomi: MiMo-V2.5-Pro context window 1050K → 1024K"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "DeepSeek: DeepSeek V4.1 Flash, Tencent: Hy3, Google: Gemma 4 26B A4B , Z.ai: GLM 5.3 (batch), Google: Gemma 3 27B, Qwen: Qwen3.5 397B A17B, Tencent: Hy4 preview",
+   "items": [
+    {
+     "label": "DeepSeek: DeepSeek V4.1 Flash",
+     "note": "1048K ctx · $0.051/$0.567 per M tokens",
+     "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+    },
+    {
+     "label": "Tencent: Hy3",
+     "note": "262K ctx · $0.0825/$0.33 per M tokens",
+     "url": "https://openrouter.ai/tencent/hy3"
+    },
+    {
+     "label": "Google: Gemma 4 26B A4B ",
+     "note": "262K ctx · $0.09/$0.3 per M tokens",
+     "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it"
+    },
+    {
+     "label": "Z.ai: GLM 5.3 (batch)",
+     "note": "1048K ctx · $0.45/$2 per M tokens",
+     "url": "https://openrouter.ai/z-ai/glm-5.3:batch"
+    },
+    {
+     "label": "Google: Gemma 3 27B",
+     "note": "131K ctx · $0.08/$0.45 per M tokens",
+     "url": "https://openrouter.ai/google/gemma-3-27b-it"
+    },
+    {
+     "label": "Qwen: Qwen3.5 397B A17B",
+     "note": "262K ctx · $0.6/$3.6 per M tokens",
+     "url": "https://openrouter.ai/qwen/qwen3.5-397b-a17b"
+    },
+    {
+     "label": "Tencent: Hy4 preview",
+     "note": "1048K ctx · $0.7506/$2.2509 per M tokens",
+     "url": "https://openrouter.ai/tencent/hy4-preview"
+    }
+   ],
+   "kind": "price_change",
+   "lane": "models",
+   "org": null,
+   "score": 3,
+   "title": "7 more models changed price"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "MiniMax: MiniMax M1",
+   "items": [
+    {
+     "label": "MiniMax: MiniMax M1",
+     "note": "",
+     "url": null
+    }
+   ],
+   "kind": "delisted",
+   "lane": "models",
+   "org": "minimax",
+   "score": 3,
+   "title": "1 model from MiniMax left the catalog"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "cn.pianam.mcp/mcp-gateway, com.browserssh/browser-ssh, com.clawhard/aitab, com.clawhard/fluff, com.clawhard/lingo, com.clawhard/slopscore",
+   "items": [
+    {
+     "label": "MCP Aggregation Gateway — 22k+ MCP search & call (cn.pianam.mcp/mcp-gateway)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=cn.pianam.mcp/mcp-gateway"
+    },
+    {
+     "label": "browser-ssh (com.browserssh/browser-ssh)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.browserssh/browser-ssh"
+    },
+    {
+     "label": "AI Tab (com.clawhard/aitab)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.clawhard/aitab"
+    },
+    {
+     "label": "Fluff (com.clawhard/fluff)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.clawhard/fluff"
+    },
+    {
+     "label": "Lingo (com.clawhard/lingo)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.clawhard/lingo"
+    },
+    {
+     "label": "Slop Score (com.clawhard/slopscore)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.clawhard/slopscore"
+    },
+    {
+     "label": "Tells (com.clawhard/tells)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.clawhard/tells"
+    },
+    {
+     "label": "Flatland (com.flatlandfi/flatland)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.flatlandfi/flatland"
+    },
+    {
+     "label": "UGT: Use the GitHub Thing (com.usegithubthing/ugt)",
+     "note": "",
+     "url": "https://github.com/auscaster/ugt"
+    },
+    {
+     "label": "Layro (io.github.Layropro/layro)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Layropro/layro"
+    },
+    {
+     "label": "Critical Path Partners (io.github.danafitkowski/cpp-cpm-engine)",
+     "note": "",
+     "url": "https://github.com/danafitkowski/cpp-cpm-engine"
+    },
+    {
+     "label": "successfactors-jobs (io.github.johnisanerd/successfactors-jobs)",
+     "note": "",
+     "url": "https://github.com/johnisanerd/claude-skill-successfactors-jobs-api"
+    },
+    {
+     "label": "Versum (io.github.sudzikcoin/versum-agent-assistant)",
+     "note": "",
+     "url": "https://github.com/sudzikcoin/versum-agent-assistant"
+    },
+    {
+     "label": "Homonoia (net.homonoia/homonoia)",
+     "note": "",
+     "url": "https://registry.modelcontextprotocol.io/v0/servers?search=net.homonoia/homonoia"
+    }
+   ],
+   "kind": "mcp_retired",
+   "lane": "mcp",
+   "org": null,
+   "score": 2.7,
+   "title": "14 MCP servers removed or deprecated"
+  },
+  {
+   "date": "2026-11-09",
+   "detail": "ElevenLabs: Head of Public Sector, AMER",
+   "items": [
+    {
+     "label": "ElevenLabs",
+     "note": "Head of Public Sector, AMER",
+     "url": null
+    }
+   ],
+   "kind": "leadership",
+   "lane": "teams",
+   "org": null,
+   "score": 1.2,
+   "title": "1 company posted 1 new leadership role"
+  }
+ ]
+}
